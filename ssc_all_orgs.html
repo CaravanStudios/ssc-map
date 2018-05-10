@@ -1,1 +1,1477 @@
-<!DOCTYPE html><html>    <head>        <title>displayInfoboxOnClickPushpinHTML</title>        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>    </head>    <body>        <div id='printoutPanel'></div>        <div id="myMap" style="position:relative;width:602px;height:600px;"></div>        <script type='text/javascript'>            function loadMapScenario() {                var map = new Microsoft.Maps.Map('#myMap', {                    credentials: 'FrSoljAZozw6GQtkVvLU~VITgwpozjJq2A8Q72t53xg~Agir8vDX_8amHOvOeHq6yDuO9aCS7Pehkl-rRvBQjz0QYrzx_BbSt7NjV9I4a-8q',                    center: new Microsoft.Maps.Location(38, -98.0),    zoom: 4                });                //AACI Asian Women's Home                var center1 = new Microsoft.Maps.Location(37.312286,-121.925293);                var pushpin1 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.312286,            -121.925293));                var infobox1 = new Microsoft.Maps.Infobox(center1, { title: 'AACI Asian Women\'s Home',                    description: 'San Jose, CA. Northern California Collaborative', visible: false });                infobox1.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin1, 'click', function () {                    infobox1.setOptions({ visible: true });                });                map.entities.push(pushpin1);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox1.setOptions({ visible: false });                });                //Community Solutions                var center2 = new Microsoft.Maps.Location(37.241368, -121.860203);                var pushpin2 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.241368, -121.860203));                var infobox2 = new Microsoft.Maps.Infobox(center2, { title: 'Community Solutions',                    description: 'Gilroy, CA. Northern California Collaborative', visible: false });                infobox2.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin2, 'click', function () {                    infobox2.setOptions({ visible: true });                });                map.entities.push(pushpin2);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox2.setOptions({ visible: false });                });                //CORA                var center3 = new Microsoft.Maps.Location(37.546624,-122.306174);                var pushpin3 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.546624,-122.306174));                var infobox3 = new Microsoft.Maps.Infobox(center3, { title: 'CORA',                    description: 'San Mateo, CA. Northern California Collaborative', visible: false });                infobox3.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin3, 'click', function () {                    infobox3.setOptions({ visible: true });                });                map.entities.push(pushpin3);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox3.setOptions({ visible: false });                });                //Corbett Group Homes and The R.I.S.E. Program                var center4 = new Microsoft.Maps.Location(37.393086, -121.891589);                var pushpin4 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.393086, -121.891589));                var infobox4 = new Microsoft.Maps.Infobox(center4, { title: 'Corbett Group Homes and The R.I.S.E. Program',                    description: 'San Jose, CA. Northern California Collaborative', visible: false });                infobox4.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin4, 'click', function () {                    infobox4.setOptions({ visible: true });                });                map.entities.push(pushpin4);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox4.setOptions({ visible: false });                });                //180 Turning Lives Around                var center5 = new Microsoft.Maps.Location(40.428953, -74.165099);                var pushpin5 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.428953, -74.165099));                var infobox5 = new Microsoft.Maps.Infobox(center5, { title: '180 Turning Lives Around',                    description: 'Hazlet, NJ. New Jersey Collaborative', visible: false });                infobox5.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin5, 'click', function () {                    infobox5.setOptions({ visible: true });                });                map.entities.push(pushpin5);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox5.setOptions({ visible: false });                });                //Advocates for Victims of Assault                var center6 = new Microsoft.Maps.Location(39.574431, -106.097520);                var pushpin6 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.574431, -106.097520));                var infobox6 = new Microsoft.Maps.Infobox(center6, { title: 'Advocates for Victims of Assault',                    description: 'Frisco, CO. Colorado Collaborative', visible: false });                infobox6.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin6, 'click', function () {                    infobox6.setOptions({ visible: true });                });                map.entities.push(pushpin6);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox6.setOptions({ visible: false });                });                //Alternatives to Violence - Colorado                var center7 = new Microsoft.Maps.Location(40.397761, -105.074980);                var pushpin7 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.397761, -105.074980));                var infobox7 = new Microsoft.Maps.Infobox(center7, { title: 'Alternatives to Violence',                    description: 'Loveland, CO. Colorado Collaborative', visible: false });                infobox7.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin7, 'click', function () {                    infobox7.setOptions({ visible: true });                });                map.entities.push(pushpin7);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox7.setOptions({ visible: false });                });                //Brighter Tomorrows                var center8 = new Microsoft.Maps.Location(32.814018, -96.948894);                var pushpin8 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.814018, -96.948894));                var infobox8 = new Microsoft.Maps.Infobox(center8, { title: 'Brighter Tomorrows',                    description: 'Irving, TX. Texas Collaborative', visible: false });                infobox8.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin8, 'click', function () {                    infobox8.setOptions({ visible: true });                });                map.entities.push(pushpin8);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox8.setOptions({ visible: false });                });                //Camden County Women's Center                var center9 = new Microsoft.Maps.Location(39.802336, -75.064060);                var pushpin9 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.802336, -75.064060));                var infobox9 = new Microsoft.Maps.Infobox(center9, { title: 'Camden County Women\'s Center',                    description: 'Blackwood, NJ. New Jersey Collaborative', visible: false });                infobox9.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin9, 'click', function () {                    infobox9.setOptions({ visible: true });                });                map.entities.push(pushpin9);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox9.setOptions({ visible: false });                });                //Center FFS/SERV Cumberland                var center10 = new Microsoft.Maps.Location(39.258711, -75.061115);                var pushpin10 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.258711, -75.061115));                var infobox10 = new Microsoft.Maps.Infobox(center10, { title: 'Center FFS/SERV Cumberland',                    description: 'Cumberland, NJ. New Jersey Collaborative', visible: false });                infobox10.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin10, 'click', function () {                    infobox10.setOptions({ visible: true });                });                map.entities.push(pushpin10);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox10.setOptions({ visible: false });                });                //Center FFS/SERV Gloucester                var center11 = new Microsoft.Maps.Location(39.891780, -75.116286);                var pushpin11 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.891780, -75.116286));                var infobox11 = new Microsoft.Maps.Infobox(center11, { title: 'Center FFS/SERV Gloucester',                    description: 'Gloucester, NJ. New Jersey Collaborative', visible: false });                infobox11.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin11, 'click', function () {                    infobox11.setOptions({ visible: true });                });                map.entities.push(pushpin11);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox11.setOptions({ visible: false });                });                //Center FFS/SERV Together                var center12 = new Microsoft.Maps.Location(39.702892, -75.111842);                var pushpin12 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.702892, -75.111842));                var infobox12 = new Microsoft.Maps.Infobox(center12, { title: 'Center FFS/SERV Together',                    description: 'Glassboro, NJ. New Jersey Collaborative', visible: false });                infobox12.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin12, 'click', function () {                    infobox12.setOptions({ visible: true });                });                map.entities.push(pushpin12);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox12.setOptions({ visible: false });                });                //Crisis Center                var center13 = new Microsoft.Maps.Location(39.372212, -104.856090);                var pushpin13 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.372212, -104.856090));                var infobox13 = new Microsoft.Maps.Infobox(center13, { title: 'Crisis Center',                    description: 'Castle Rock, CO. Colorado Collaborative', visible: false });                infobox13.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin13, 'click', function () {                    infobox13.setOptions({ visible: true });                });                map.entities.push(pushpin13);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox13.setOptions({ visible: false });                });                //Crossroads Safehouse                var center14 = new Microsoft.Maps.Location(40.585260, -105.084423);                var pushpin14 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.585260, -105.084423));                var infobox14 = new Microsoft.Maps.Infobox(center14, { title: 'Crossroads Safehouse',                    description: 'Fort Collins, CO. Colorado Collaborative', visible: false });                infobox14.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin14, 'click', function () {                    infobox14.setOptions({ visible: true });                });                map.entities.push(pushpin14);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox14.setOptions({ visible: false });                });                //Denton County Friends of the Family                var center15 = new Microsoft.Maps.Location(33.214841, -97.133068);                var pushpin15 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.214841, -97.133068));                var infobox15 = new Microsoft.Maps.Infobox(center15, { title: 'Denton County Friends of the Family',                    description: 'Denton, TX. Texas Collaborative', visible: false });                infobox15.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin15, 'click', function () {                    infobox15.setOptions({ visible: true });                });                map.entities.push(pushpin15);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox15.setOptions({ visible: false });                });                //Domestic Abuse and Sexual Assualt Crisis Center                var center16 = new Microsoft.Maps.Location(40.758433, -74.979338);                var pushpin16 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.758433, -74.979338));                var infobox16 = new Microsoft.Maps.Infobox(center16, { title: 'Domestic Abuse and Sexual Assualt Crisis Center',                    description: 'Washington, NJ. New Jersey Collaborative', visible: false });                infobox16.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin16, 'click', function () {                    infobox16.setOptions({ visible: true });                });                map.entities.push(pushpin16);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox16.setOptions({ visible: false });                });                //DreamCatcher Youth Services                var center17 = new Microsoft.Maps.Location(37.799245, -122.278695);                var pushpin17 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.799245, -122.278695));                var infobox17 = new Microsoft.Maps.Infobox(center17, { title: 'DreamCatcher Youth Services',                    description: 'Alameda, CA. Northern California Collaborative', visible: false });                infobox17.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin17, 'click', function () {                    infobox17.setOptions({ visible: true });                });                map.entities.push(pushpin17);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox17.setOptions({ visible: false });                });                //Estes Valley Crisis Advocates                var center18 = new Microsoft.Maps.Location(40.377206, -105.521665);                var pushpin18 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.377206, -105.521665));                var infobox18 = new Microsoft.Maps.Infobox(center18, { title: 'Estes Valley Crisis Advocates',                    description: 'Estes Park, CO. Colorado Collaborative', visible: false });                infobox18.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin18, 'click', function () {                    infobox18.setOptions({ visible: true });                });                map.entities.push(pushpin18);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox18.setOptions({ visible: false });                });                //Freedom House                var center19 = new Microsoft.Maps.Location(37.589952, -122.363342);                var pushpin19 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.589952, -122.363342));                var infobox19 = new Microsoft.Maps.Infobox(center19, { title: 'Freedom House',                    description: 'Burlingame, Ca. Northern California Collaborative', visible: false });                infobox19.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin19, 'click', function () {                    infobox19.setOptions({ visible: true });                });                map.entities.push(pushpin19);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox19.setOptions({ visible: false });                });                //Gateway Domestic Violence Services                var center20 = new Microsoft.Maps.Location(39.729432, -104.83192);                var pushpin20 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.729432, -104.83192));                var infobox20 = new Microsoft.Maps.Infobox(center20, { title: 'Gateway Domestic Violence Services',                    description: 'Aurora, CO. Colorado Collaborative', visible: false });                infobox20.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin20, 'click', function () {                    infobox20.setOptions({ visible: true });                });                map.entities.push(pushpin20);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox20.setOptions({ visible: false });                });                //Hope's Door - Garland                var center21 = new Microsoft.Maps.Location(32.912624, -96.638883);                var pushpin21 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.912624, -96.638883));                var infobox21 = new Microsoft.Maps.Infobox(center21, { title: 'Hope\'s Door - Garland',                    description: 'Garland, TX. Texas Collaborative', visible: false });                infobox21.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin21, 'click', function () {                    infobox21.setOptions({ visible: true });                });                map.entities.push(pushpin21);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox21.setOptions({ visible: false });                });                //Hope's Door - Plano                var center22 = new Microsoft.Maps.Location(33.019843, -96.698886);                var pushpin22 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.019843, -96.698886));                var infobox22 = new Microsoft.Maps.Infobox(center22, { title: 'Hope\'s Door - Plano',                    description: 'Plano, TX. Texas Collaborative', visible: false });                infobox22.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin22, 'click', function () {                    infobox22.setOptions({ visible: true });                });                map.entities.push(pushpin22);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox22.setOptions({ visible: false });                });                //Huckleberry Youth Program                var center23 = new Microsoft.Maps.Location(37.774929, -122.419416);                var pushpin23 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.774929, -122.419416));                var infobox23 = new Microsoft.Maps.Infobox(center23, { title: 'Huckleberry Youth Program',                    description: 'San Francisco, CA. Northern California Collaborative', visible: false });                infobox23.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin23, 'click', function () {                    infobox23.setOptions({ visible: true });                });                map.entities.push(pushpin23);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox23.setOptions({ visible: false });                });                //Jersey Battered Women's Services                var center24 = new Microsoft.Maps.Location(40.796767, -74.481544);                var pushpin24 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.796767, -74.481544));                var infobox24 = new Microsoft.Maps.Infobox(center24, { title: 'Jersey Battered Women\'s Services',                    description: 'Morristown, NJ. New Jersey Collaborative', visible: false });                infobox24.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin24, 'click', function () {                    infobox24.setOptions({ visible: true });                });                map.entities.push(pushpin24);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox24.setOptions({ visible: false });                });                //Jewish Family and Children's Services                var center25 = new Microsoft.Maps.Location(39.926813, -75.024631);                var pushpin25 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.926813, -75.024631));                var infobox25 = new Microsoft.Maps.Infobox(center25, { title: 'Jewish Family and Children\'s Services',                    description: 'Cherry Hill , NJ. New Jersey Collaborative', visible: false });                infobox25.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin25, 'click', function () {                    infobox25.setOptions({ visible: true });                });                map.entities.push(pushpin25);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox25.setOptions({ visible: false });                });                //Larkin Street Youth Services                var center26 = new Microsoft.Maps.Location(37.782074, -122.413105);                var pushpin26 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.782074, -122.413105));                var infobox26 = new Microsoft.Maps.Infobox(center26, { title: 'Larkin Street Youth Services',                    description: 'San Francisco , CA. Northern California Collaborative', visible: false });                infobox26.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin26, 'click', function () {                    infobox26.setOptions({ visible: true });                });                map.entities.push(pushpin26);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox26.setOptions({ visible: false });                });                //Love Never Fails                var center27 = new Microsoft.Maps.Location(37.707856, -121.924432);                var pushpin27 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.707856, -121.924432));                var infobox27 = new Microsoft.Maps.Infobox(center27, { title: 'Love Never Fails',                    description: 'Dublin , CA. Northern California Collaborative', visible: false });                infobox27.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin27, 'click', function () {                    infobox27.setOptions({ visible: true });                });                map.entities.push(pushpin27);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox27.setOptions({ visible: false });                });                //Monarch Services                var center28 = new Microsoft.Maps.Location(36.914321, -121.755055);                var pushpin28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(36.914321, -121.755055));                var infobox28 = new Microsoft.Maps.Infobox(center28, { title: 'Monarch Services',                    description: 'Santa Cruz , CA. Northern California Collaborative', visible: false });                infobox28.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin28, 'click', function () {                    infobox28.setOptions({ visible: true });                });                map.entities.push(pushpin28);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox28.setOptions({ visible: false });                });                //Mosaic Family Services                var center29 = new Microsoft.Maps.Location(32.776664, -96.796988);                var pushpin29 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.776664, -96.796988));                var infobox29 = new Microsoft.Maps.Infobox(center29, { title: 'Mosaic Family Services',                    description: 'Dallas , TX. Texas Collaborative', visible: false });                infobox29.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin29, 'click', function () {                    infobox29.setOptions({ visible: true });                });                map.entities.push(pushpin29);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox29.setOptions({ visible: false });                });                //My Sister's House                var center30 = new Microsoft.Maps.Location(38.549031, -121.488963);                var pushpin30 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.549031, -121.488963));                var infobox30 = new Microsoft.Maps.Infobox(center30, { title: 'My Sister\'s House',                    description: 'Sacramento , CA. Nothern California Collaborative', visible: false });                infobox30.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin30, 'click', function () {                    infobox30.setOptions({ visible: true });                });                map.entities.push(pushpin30);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox30.setOptions({ visible: false });                });                //New Friends New Life                var center31 = new Microsoft.Maps.Location(32.8122, -96.8110);                var pushpin31 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.8122, -96.8110));                var infobox31 = new Microsoft.Maps.Infobox(center31, { title: 'New Friends New Life',                    description: 'Dallas, TX. Texas Collaborative', visible: false });                infobox31.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin31, 'click', function () {                    infobox31.setOptions({ visible: true });                });                map.entities.push(pushpin31);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox31.setOptions({ visible: false });                });                //Providence House Burlington                var center32 = new Microsoft.Maps.Location(40.015892, -74.956425);                var pushpin32 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.015892, -74.956425));                var infobox32 = new Microsoft.Maps.Infobox(center32, { title: 'Providence House Burlington',                    description: 'Delran , NJ. New Jersey Collaborative', visible: false });                infobox32.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin32, 'click', function () {                    infobox32.setOptions({ visible: true });                });                map.entities.push(pushpin32);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox32.setOptions({ visible: false });                });                //Providence House Ocean                var center33 = new Microsoft.Maps.Location(39.954363, -74.378734);                var pushpin33 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.954363, -74.378734));                var infobox33 = new Microsoft.Maps.Infobox(center33, { title: 'Providence House Ocean',                    description: 'Whiting , NJ. New Jersey Collaborative', visible: false });                infobox33.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin33, 'click', function () {                    infobox33.setOptions({ visible: true });                });                map.entities.push(pushpin33);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox33.setOptions({ visible: false });                });                //The Montrose Center                var center34 = new Microsoft.Maps.Location(29.760427, -95.369803);                var pushpin34 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(29.760427, -95.369803));                var infobox34 = new Microsoft.Maps.Infobox(center34, { title: 'The Montrose Center',                    description: 'Houston, TX. SafeNight App', visible: false });                infobox34.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin34, 'click', function () {                    infobox34.setOptions({ visible: true });                });                map.entities.push(pushpin34);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox34.setOptions({ visible: false });                });                //Ruby's Place                var center35 = new Microsoft.Maps.Location(37.675098, -122.079842);                var pushpin35 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.675098, -122.079842));                var infobox35 = new Microsoft.Maps.Infobox(center35, { title: 'Ruby\'s Place',                    description: 'Hayward, CA. Northern California Collaborative', visible: false });                infobox35.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin35, 'click', function () {                    infobox35.setOptions({ visible: true });                });                map.entities.push(pushpin35);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox35.setOptions({ visible: false });                });                //Safe House                var center36 = new Microsoft.Maps.Location(40.806755, -74.185421);                var pushpin36 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.806755, -74.185421));                var infobox36 = new Microsoft.Maps.Infobox(center36, { title: 'Safe House',                    description: 'Bloomfield, NJ. New Jersey Collaborative', visible: false });                infobox36.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin36, 'click', function () {                    infobox36.setOptions({ visible: true });                });                map.entities.push(pushpin36);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox36.setOptions({ visible: false });                });                //Safe in Hunterdon                var center37 = new Microsoft.Maps.Location(40.512326, -74.859332);                var pushpin37 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.512326, -74.859332));                var infobox37 = new Microsoft.Maps.Infobox(center37, { title: 'Safe in Hunterdon',                    description: 'Flemington, NJ. New Jersey Collaborative', visible: false });                infobox37.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin37, 'click', function () {                    infobox37.setOptions({ visible: true });                });                map.entities.push(pushpin37);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox37.setOptions({ visible: false });                });                //Safehouse Progressive Alliance for Nonviolence                var center38 = new Microsoft.Maps.Location(40.014986, -105.270546);                var pushpin38 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.014986, -105.270546));                var infobox38 = new Microsoft.Maps.Infobox(center38, { title: 'Safehouse Progressive Alliance for Nonviolence',                    description: 'Boulder, CO. Colorado Collaborative', visible: false });                infobox38.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin38, 'click', function () {                    infobox38.setOptions({ visible: true });                });                map.entities.push(pushpin38);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox38.setOptions({ visible: false });                });                //Safe Shelter of St Vrain Valley                var center39 = new Microsoft.Maps.Location(40.167207, -105.101927);                var pushpin39 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.167207, -105.101927));                var infobox39 = new Microsoft.Maps.Infobox(center39, { title: 'Safe Shelter of St Vrain Valley',                    description: 'Longmont, CO. Colorado Collaborative', visible: false });                infobox39.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin39, 'click', function () {                    infobox39.setOptions({ visible: true });                });                map.entities.push(pushpin39);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox39.setOptions({ visible: false });                });                //Stand Up Placer                var center40 = new Microsoft.Maps.Location(38.941498, -121.099099);                var pushpin40 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.941498, -121.099099));                var infobox40 = new Microsoft.Maps.Infobox(center40, { title: 'Stand Up Placer',                    description: 'Auburn, CA. Northern California Collaborative', visible: false });                infobox40.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin40, 'click', function () {                    infobox40.setOptions({ visible: true });                });                map.entities.push(pushpin40);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox40.setOptions({ visible: false });                });                //Tahoe SAFE Alliance                var center41 = new Microsoft.Maps.Location(39.2497, -119.9527);                var pushpin41 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.2497, -119.9527));                var infobox41 = new Microsoft.Maps.Infobox(center41, { title: 'Tahoe SAFE Alliance',                    description: 'Incline Village, NV. Northern California Collaborative', visible: false });                infobox41.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin41, 'click', function () {                    infobox41.setOptions({ visible: true });                });                map.entities.push(pushpin41);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox41.setOptions({ visible: false });                });                //The Chest of Hope                var center42 = new Microsoft.Maps.Location(37.739356, -121.424377);                var pushpin42 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.739356, -121.424377));                var infobox42 = new Microsoft.Maps.Infobox(center42, { title: 'The Chest of Hope',                    description: 'Tracy, CA. Northern California Collaborative', visible: false });                infobox42.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin42, 'click', function () {                    infobox42.setOptions({ visible: true });                });                map.entities.push(pushpin42);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox42.setOptions({ visible: false });                });                //The Salvation Army - Dallas                var center43 = new Microsoft.Maps.Location(32.8167, -96.8834);                var pushpin43 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.8167, -96.8834));                var infobox43 = new Microsoft.Maps.Infobox(center43, { title: 'The Salvation Army',                    description: 'Dallas, TX. Texas Collaborative', visible: false });                infobox43.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin43, 'click', function () {                    infobox43.setOptions({ visible: true });                });                map.entities.push(pushpin43);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox43.setOptions({ visible: false });                });                //TWC - DreamCatcher                var center44 = new Microsoft.Maps.Location(39.339838, -74.575156);                var pushpin44 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.339838, -74.575156));                var infobox44 = new Microsoft.Maps.Infobox(center44, { title: 'TWC - DreamCatcher',                    description: 'Linwood, NJ. New Jersey Collaborative', visible: false });                infobox44.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin44, 'click', function () {                    infobox44.setOptions({ visible: true });                });                map.entities.push(pushpin44);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox44.setOptions({ visible: false });                });                //TWC - VIP                var center45 = new Microsoft.Maps.Location(39.533338, -74.686882);                var pushpin45 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.533338, -74.686882));                var infobox45 = new Microsoft.Maps.Infobox(center45, { title: 'TWC - VIP',                    description: 'Atlantic County, NJ. New Jersey Collaborative', visible: false });                infobox45.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin45, 'click', function () {                    infobox45.setOptions({ visible: true });                });                map.entities.push(pushpin45);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox45.setOptions({ visible: false });                });                //Twin Oaks                var center46 = new Microsoft.Maps.Location(39.993144, -74.787939);                var pushpin46 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.993144, -74.787939));                var infobox46 = new Microsoft.Maps.Infobox(center46, { title: 'Twin Oaks',                    description: 'Mount Holly, NJ. New Jersey Collaborative', visible: false });                infobox46.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin46, 'click', function () {                    infobox46.setOptions({ visible: true });                });                map.entities.push(pushpin46);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox46.setOptions({ visible: false });                });                //Visions and Pathways                var center47 = new Microsoft.Maps.Location(40.593964, -74.604906);                var pushpin47 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.593964, -74.604906));                var infobox47 = new Microsoft.Maps.Infobox(center47, { title: 'Visions and Pathway',                    description: 'Bridgewater, NJ. New Jersey Collaborative', visible: false });                infobox47.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin47, 'click', function () {                    infobox47.setOptions({ visible: true });                });                map.entities.push(pushpin47);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox47.setOptions({ visible: false });                });                //WEAVE                var center48 = new Microsoft.Maps.Location(38.57558, -121.481533);                var pushpin48 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.57558, -121.481533));                var infobox48 = new Microsoft.Maps.Infobox(center48, { title: 'WEAVE',                    description: 'Sacramento, CA. Northern California Collaborative', visible: false });                infobox48.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin48, 'click', function () {                    infobox48.setOptions({ visible: true });                });                map.entities.push(pushpin48);                //Womanspace, Inc.                var center49 = new Microsoft.Maps.Location(40.301637, -74.736101);                var pushpin49 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.301637, -74.736101));                var infobox49 = new Microsoft.Maps.Infobox(center49, { title: 'Womanspace, Inc.',                    description: 'Lawrenceville, NJ. New Jersey Collaborative', visible: false });                infobox49.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin49, 'click', function () {                    infobox49.setOptions({ visible: true });                });                map.entities.push(pushpin49);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox49.setOptions({ visible: false });                });                //Women Aware                var center50 = new Microsoft.Maps.Location(40.486216, -74.451819);                var pushpin50 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.486216, -74.451819));                var infobox50 = new Microsoft.Maps.Infobox(center50, { title: 'Women Aware',                    description: 'New Brunswick, NJ. New Jersey Collaborative', visible: false });                infobox50.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin50, 'click', function () {                    infobox50.setOptions({ visible: true });                });                map.entities.push(pushpin50);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox50.setOptions({ visible: false });                });                //Youth Consultation Services                var center51 = new Microsoft.Maps.Location(40.735657, -74.172367);                var pushpin51 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.735657, -74.172367));                var infobox51 = new Microsoft.Maps.Infobox(center51, { title: 'Youth Consultation Services',                    description: 'Newark, NJ. New Jersey Collaborative', visible: false });                infobox51.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin51, 'click', function () {                    infobox51.setOptions({ visible: true });                });                map.entities.push(pushpin51);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox51.setOptions({ visible: false });                });                //YWCA Pueblo Family Crisis Shelter                var center52 = new Microsoft.Maps.Location(38.254447, -104.609141);                var pushpin52 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.254447, -104.609141));                var infobox52 = new Microsoft.Maps.Infobox(center52, { title: 'YWCA Pueblo Family Crisis Shelter',                    description: 'Pueblo, CO. Colorado Collaborative', visible: false });                infobox52.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin52, 'click', function () {                    infobox52.setOptions({ visible: true });                });                map.entities.push(pushpin52);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox52.setOptions({ visible: false });                });                //YWCA Silicon Valley                var center53 = new Microsoft.Maps.Location(37.331507, -121.88442);                var pushpin53 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.331507, -121.88442));                var infobox53 = new Microsoft.Maps.Infobox(center53, { title: 'YWCA Silicon Valley',                    description: 'San Jose, CA. Northern California Collaborative', visible: false });                infobox53.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin53, 'click', function () {                    infobox53.setOptions({ visible: true });                });                map.entities.push(pushpin53);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox53.setOptions({ visible: false });                });                //Women Center Youth and Families                var center54 = new Microsoft.Maps.Location(37.959657, -121.288418);                var pushpin54 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.959657, -121.288418));                var infobox54 = new Microsoft.Maps.Infobox(center54, { title: 'Women Center Youth and Families',                    description: 'Stockton , CA. Northern California Collaborative', visible: false });                infobox54.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin54, 'click', function () {                    infobox54.setOptions({ visible: true });                });                map.entities.push(pushpin54);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox54.setOptions({ visible: false });                });                //SafeHouse Denver                var center55 = new Microsoft.Maps.Location(39.739236, -104.990251);                var pushpin55 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.739236, -104.990251));                var infobox55 = new Microsoft.Maps.Infobox(center55, { title: 'SafeHouse Denver',                    description: 'Denver, CO. Colorado Collaborative', visible: false });                infobox55.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin55, 'click', function () {                    infobox55.setOptions({ visible: true });                });                map.entities.push(pushpin55);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox55.setOptions({ visible: false });                });                //Grayson Crisis Center                var center56 = new Microsoft.Maps.Location(33.6357, -96.6089);                var pushpin56 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.6357, -96.6089));                var infobox56 = new Microsoft.Maps.Infobox(center56, { title: 'Grayson Crisis Center',                    description: 'Sherman, TX. Texas Collaborative', visible: false });                infobox56.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin56, 'click', function () {                    infobox56.setOptions({ visible: true });                });                map.entities.push(pushpin56);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox56.setOptions({ visible: false });                });                //ACCESS (Assault Care Center Extending Shelter and Support)                var center57 = new Microsoft.Maps.Location(42.030781, -93.631913);                var pushpin57 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(42.030781, -93.631913));                var infobox57 = new Microsoft.Maps.Infobox(center57, { title: 'ACCESS (Assault Care Center Extending Shelter and Support)',                    description: 'Ames, IA. SafeNight App', visible: false });                infobox57.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin57, 'click', function () {                    infobox57.setOptions({ visible: true });                });                map.entities.push(pushpin57);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox57.setOptions({ visible: false });                });                //Alameda County District Attorney Office Victim/Witness Division                var center58 = new Microsoft.Maps.Location(37.801261, -122.262975);                var pushpin58 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.801261, -122.262975));                var infobox58 = new Microsoft.Maps.Infobox(center58, { title: 'Alameda County District Attorney Office Victim/Witness Division',                    description: 'Oakland, CA. Northern California Collaborative', visible: false });                infobox58.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin58, 'click', function () {                    infobox58.setOptions({ visible: true });                });                map.entities.push(pushpin58);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox58.setOptions({ visible: false });                });                //Alternatives to Dometic Violence                var center59 = new Microsoft.Maps.Location(33.953349, -117.396156);                var pushpin59 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.953349, -117.396156));                var infobox59 = new Microsoft.Maps.Infobox(center59, { title: 'Alternatives to Domestic Violence',                    description: 'Riverside, CA. SafeNight App', visible: false });                infobox59.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin59, 'click', function () {                    infobox59.setOptions({ visible: true });                });                map.entities.push(pushpin59);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox59.setOptions({ visible: false });                });                //Alternatives to Violence                var center60 = new Microsoft.Maps.Location(33.953349, -117.396156);                var pushpin60 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.953349, -117.396156));                var infobox60 = new Microsoft.Maps.Infobox(center60, { title: 'Alternatives to Violence',                    description: 'Redbluff, CA. SafeNight App', visible: false });                infobox60.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin60, 'click', function () {                    infobox60.setOptions({ visible: true });                });                map.entities.push(pushpin60);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox60.setOptions({ visible: false });                });                //Arab Cultural Center                var center61 = new Microsoft.Maps.Location(37.774929, -122.419416);                var pushpin61 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.774929, -122.419416));                var infobox61 = new Microsoft.Maps.Infobox(center61, { title: 'Arab Cultural Center',                    description: 'San Francisco, CA. SafeNight App', visible: false });                infobox61.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin61, 'click', function () {                    infobox61.setOptions({ visible: true });                });                map.entities.push(pushpin61);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox61.setOptions({ visible: false });                });                //Bay Area Women Against Rape (BAWAR)                var center62 = new Microsoft.Maps.Location(37.816473, -122.266585);                var pushpin62 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.816473, -122.266585));                var infobox62 = new Microsoft.Maps.Infobox(center62, { title: 'Bay Area Women Against Rape (BAWAR)',                    description: 'Oakland, CA. Northern California Collaborative', visible: false });                infobox62.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin62, 'click', function () {                    infobox62.setOptions({ visible: true });                });                map.entities.push(pushpin62);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox62.setOptions({ visible: false });                });                //CASH (Community Against Sexual Harm)                var center63 = new Microsoft.Maps.Location(38.555252, -121.472532);                var pushpin63 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.555252, -121.472532));                var infobox63 = new Microsoft.Maps.Infobox(center63, { title: 'CASH (Community Against Sexual Harm)',                    description: 'Sacramento, CA. Northern California Collaborative', visible: false });                infobox63.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin63, 'click', function () {                    infobox63.setOptions({ visible: true });                });                map.entities.push(pushpin63);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox63.setOptions({ visible: false });                });                //Catalyst Domestic Violence Services                var center64 = new Microsoft.Maps.Location(39.728494, -121.837478);                var pushpin64 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.728494, -121.837478));                var infobox64 = new Microsoft.Maps.Infobox(center64, { title: 'Catalyst Domestic Violence Services',                    description: 'Chico, CA. SafeNight App', visible: false });                infobox64.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin64, 'click', function () {                    infobox64.setOptions({ visible: true });                });                map.entities.push(pushpin64);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox64.setOptions({ visible: false });                });                //CHETNA                var center65 = new Microsoft.Maps.Location(32.948333, -96.729852);                var pushpin65 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.948333, -96.729852));                var infobox65 = new Microsoft.Maps.Infobox(center65, { title: 'CHETNA',                    description: 'Richardson, TX. Texas Collaborative', visible: false });                infobox65.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin65, 'click', function () {                    infobox65.setOptions({ visible: true });                });                map.entities.push(pushpin65);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox65.setOptions({ visible: false });                });                //Children's Institute, Inc.                var center66 = new Microsoft.Maps.Location(34.052234, -118.243685);                var pushpin66 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.052234, -118.243685));                var infobox66 = new Microsoft.Maps.Infobox(center66, { title: 'Chidren\'s Institute, Inc.',                    description: 'Los Angeles, CA. SafeNight App', visible: false });                infobox66.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin65, 'click', function () {                    infobox66.setOptions({ visible: true });                });                map.entities.push(pushpin66);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox66.setOptions({ visible: false });                });                //Coalition to Abolish Slavery and Trafficking (CAST)                var center67 = new Microsoft.Maps.Location(34.066482, -118.352039);                var pushpin67 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.066482, -118.352039));                var infobox67 = new Microsoft.Maps.Infobox(center67, { title: 'Coalition to Abolish Slavery and Trafficking (CAST)',                    description: 'Los Angeles, CA. SafeNight App', visible: false });                infobox67.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin67, 'click', function () {                    infobox67.setOptions({ visible: true });                });                map.entities.push(pushpin67);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox67.setOptions({ visible: false });                });                //Community Coalition Against Human Trafficking/Glow Free TN                var center68 = new Microsoft.Maps.Location(35.9606, -83.9207);                var pushpin68 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.9606, -83.9207));                var infobox68 = new Microsoft.Maps.Infobox(center68, { title: 'Community Coalition Against Human Trafficking/Glow Free TN',                    description: 'Knoxville, TN. SafeNight App', visible: false });                infobox68.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin68, 'click', function () {                    infobox68.setOptions({ visible: true });                });                map.entities.push(pushpin68);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox68.setOptions({ visible: false });                });                //Community Violence Solutions                var center69 = new Microsoft.Maps.Location(37.960005, -122.343402);                var pushpin69 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.960005, -122.343402));                var infobox69 = new Microsoft.Maps.Infobox(center69, { title: 'Community Violence Solutions',                    description: 'San Pablo, CA. Northern California Collaborative', visible: false });                infobox69.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin69, 'click', function () {                    infobox69.setOptions({ visible: true });                });                map.entities.push(pushpin69);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox69.setOptions({ visible: false });                });                //Contra Costa Family Justice Alliance                var center70 = new Microsoft.Maps.Location(37.977869, -122.034277);                var pushpin70 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.977869, -122.034277));                var infobox70 = new Microsoft.Maps.Infobox(center70, { title: 'Contra Costa Family Justice Alliance',                    description: 'Richmond, CA. Northern California Collaborative', visible: false });                infobox70.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin70, 'click', function () {                    infobox70.setOptions({ visible: true });                });                map.entities.push(pushpin70);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox70.setOptions({ visible: false });                });                //Crisis Center of Comal County                var center71 = new Microsoft.Maps.Location(29.703002, -98.124453);                var pushpin71 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(29.703002, -98.124453));                var infobox71 = new Microsoft.Maps.Infobox(center71, { title: 'Crisis Center of Comal County',                    description: 'New Braunfels, TX. SafeNight App', visible: false });                infobox71.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin71, 'click', function () {                    infobox71.setOptions({ visible: true });                });                map.entities.push(pushpin71);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox71.setOptions({ visible: false });                });                //Crisis Intervention Service                var center72 = new Microsoft.Maps.Location(43.153573, -93.201037);                var pushpin72 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(43.153573, -93.201037));                var infobox72 = new Microsoft.Maps.Infobox(center72, { title: 'Crisis Intervention Service',                    description: 'Mason City, IA. SafeNight App', visible: false });                infobox72.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin72, 'click', function () {                    infobox72.setOptions({ visible: true });                });                map.entities.push(pushpin72);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox72.setOptions({ visible: false });                });                //Domestic Safety Resource Center                var center73 = new Microsoft.Maps.Location(38.087231, -102.62075);                var pushpin73 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.087231, -102.62075));                var infobox73 = new Microsoft.Maps.Infobox(center73, { title: 'Crisis Intervention Service',                    description: 'Lamar, CO. Colorado Collaborative', visible: false });                infobox73.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin73, 'click', function () {                    infobox73.setOptions({ visible: true });                });                map.entities.push(pushpin73);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox73.setOptions({ visible: false });                });                //DOVES of Big Bear Valley, Inc.                var center74 = new Microsoft.Maps.Location(34.243896, -116.911422);                var pushpin74 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.243896, -116.911422));                var infobox74 = new Microsoft.Maps.Infobox(center74, { title: 'DOVES of Big Bear Valley',                    description: 'Big Bear Lake, CA. Northern California Collaborative', visible: false });                infobox74.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin74, 'click', function () {                    infobox74.setOptions({ visible: true });                });                map.entities.push(pushpin74);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox74.setOptions({ visible: false });                });                //Family Support Services of Amarillo, Inc.                var center75 = new Microsoft.Maps.Location(35.221997, -101.831297);                var pushpin75 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.221997, -101.831297));                var infobox75 = new Microsoft.Maps.Infobox(center75, { title: 'Family Support Services of Amarillo, Inc.',                    description: 'Amarillo, TX. SafeNight App', visible: false });                infobox75.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin75, 'click', function () {                    infobox75.setOptions({ visible: true });                });                map.entities.push(pushpin75);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox75.setOptions({ visible: false });                });                //Family Violence Law Center                var center76 = new Microsoft.Maps.Location(37.804364, -122.271114);                var pushpin76 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.804364, -122.271114));                var infobox76 = new Microsoft.Maps.Infobox(center76, { title: 'Family Violence Law Center',                    description: 'Oakland, CA. SafeNight App', visible: false });                infobox76.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin76, 'click', function () {                    infobox76.setOptions({ visible: true });                });                map.entities.push(pushpin76);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox76.setOptions({ visible: false });                });                //Garden of Hope                var center77 = new Microsoft.Maps.Location(40.767499, -73.833079);                var pushpin77 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.767499, -73.833079));                var infobox77 = new Microsoft.Maps.Infobox(center77, { title: 'Garden of Hope',                    description: 'Flushing, NY. SafeNight App', visible: false });                infobox77.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin77, 'click', function () {                    infobox77.setOptions({ visible: true });                });                map.entities.push(pushpin77);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox77.setOptions({ visible: false });                });                //Glory House of Miami                var center78 = new Microsoft.Maps.Location(25.761680, -80.19179);                var pushpin78 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(25.761680, -80.19179));                var infobox78 = new Microsoft.Maps.Infobox(center78, { title: 'Glory House of Miami',                    description: 'Miami, FL. SafeNight App', visible: false });                infobox78.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin78, 'click', function () {                    infobox78.setOptions({ visible: true });                });                map.entities.push(pushpin78);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox78.setOptions({ visible: false });                });                //Haven Women's Center of Stanislaus                var center79 = new Microsoft.Maps.Location(37.639097, -120.996878);                var pushpin79 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.639097, -120.996878));                var infobox79 = new Microsoft.Maps.Infobox(center79, { title: 'Haven Women\'s Center of Stanislaus',                    description: 'Modesto, CA. SafeNight App', visible: false });                infobox79.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin79, 'click', function () {                    infobox79.setOptions({ visible: true });                });                map.entities.push(pushpin79);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox79.setOptions({ visible: false });                });                //Helpmate                var center80 = new Microsoft.Maps.Location(35.595058, -82.551487);                var pushpin80 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.595058, -82.551487));                var infobox80 = new Microsoft.Maps.Infobox(center80, { title: 'Helpmate',                    description: 'Ashville, NC. SafeNight App', visible: false });                infobox80.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin80, 'click', function () {                    infobox80.setOptions({ visible: true });                });                map.entities.push(pushpin80);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox80.setOptions({ visible: false });                });                //International Institute of Los Angeles                var center81 = new Microsoft.Maps.Location(34.142508, -118.255075);                var pushpin81 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.142508, -118.255075));                var infobox81 = new Microsoft.Maps.Infobox(center81, { title: 'International Institute of Los Angeles',                    description: 'Glendale, CA. SafeNight App', visible: false });                infobox81.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin81, 'click', function () {                    infobox81.setOptions({ visible: true });                });                map.entities.push(pushpin81);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox81.setOptions({ visible: false });                });                //Kene Me-Wu Native American DV/SA Program                var center82 = new Microsoft.Maps.Location(37.958512, -120.424812);                var pushpin82 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.958512, -120.424812));                var infobox82 = new Microsoft.Maps.Infobox(center82, { title: 'Kene Me-Wu Native American DV/SA Program',                    description: 'Sonora, CA. Northern California Collaborative', visible: false });                infobox82.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin82, 'click', function () {                    infobox82.setOptions({ visible: true });                });                map.entities.push(pushpin82);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox82.setOptions({ visible: false });                });                //KIRAN, Inc.                var center83 = new Microsoft.Maps.Location(35.779590, -78.638179);                var pushpin83 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.779590, -78.638179));                var infobox83 = new Microsoft.Maps.Infobox(center83, { title: 'KIRAN, Inc.',                    description: 'Raleigh, NC. SafeNight App', visible: false });                infobox83.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin83, 'click', function () {                    infobox83.setOptions({ visible: true });                });                map.entities.push(pushpin83);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox83.setOptions({ visible: false });                });                //Lassen Family Services                var center84 = new Microsoft.Maps.Location(40.416284, -120.653006);                var pushpin84 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.416284, -120.653006));                var infobox84 = new Microsoft.Maps.Infobox(center84, { title: 'Lassen Family Services',                    description: 'Susanville, CA. SafeNight App', visible: false });                infobox84.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin84, 'click', function () {                    infobox84.setOptions({ visible: true });                });                map.entities.push(pushpin84);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox84.setOptions({ visible: false });                });                //Live Violence Free                var center85 = new Microsoft.Maps.Location(38.939926, -119.977187);                var pushpin85 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.939926, -119.977187));                var infobox85 = new Microsoft.Maps.Infobox(center85, { title: 'Live Violence Free',                    description: 'South Lake Tahoe, CA. SafeNight App', visible: false });                infobox85.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin85, 'click', function () {                    infobox85.setOptions({ visible: true });                });                map.entities.push(pushpin85);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox85.setOptions({ visible: false });                });                //MISSSEY                var center86 = new Microsoft.Maps.Location(37.803562, -122.268906);                var pushpin86 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.803562, -122.268906));                var infobox86 = new Microsoft.Maps.Infobox(center86, { title: 'MISSSEY',                    description: 'Oakland, CA. Northern California Collaborative', visible: false });                infobox86.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin86, 'click', function () {                    infobox86.setOptions({ visible: true });                });                map.entities.push(pushpin86);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox86.setOptions({ visible: false });                });                //Monterey County Rape Crisis Center                var center87 = new Microsoft.Maps.Location(36.676268, -121.659372);                var pushpin87 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(36.676268, -121.659372));                var infobox87 = new Microsoft.Maps.Infobox(center87, { title: 'Monterey County Rape Crisis Center',                    description: 'Salinas, CA. Northern California Collaborative', visible: false });                infobox87.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin87, 'click', function () {                    infobox87.setOptions({ visible: true });                });                map.entities.push(pushpin87);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox87.setOptions({ visible: false });                });                //New York City Gay and Lesbian Anti-Violence Project                var center88 = new Microsoft.Maps.Location(40.712784, -74.005941);                var pushpin88 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.712784, -74.005941));                var infobox88 = new Microsoft.Maps.Infobox(center88, { title: 'New York City Gay and Lesbian Anti-Violence Project',                    description: 'New York, NY. SafeNight App', visible: false });                infobox88.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin88, 'click', function () {                    infobox88.setOptions({ visible: true });                });                map.entities.push(pushpin88);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox88.setOptions({ visible: false });                });                //NJCEDV                var center89 = new Microsoft.Maps.Location(40.217053, -74.742938);                var pushpin89 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.217053, -74.742938));                var infobox89 = new Microsoft.Maps.Infobox(center89, { title: 'NJCEDV',                    description: 'Trenton, NJ. New Jersey Collaborative', visible: false });                infobox89.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin89, 'click', function () {                    infobox89.setOptions({ visible: true });                });                map.entities.push(pushpin89);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox89.setOptions({ visible: false });                });                //NorCal Service for Deaf and Hard of Hearing                var center90 = new Microsoft.Maps.Location(37.998996, -121.326312);                var pushpin90 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.998996, -121.326312));                var infobox90 = new Microsoft.Maps.Infobox(center90, { title: 'NorCal Service for Deaf and Hard of Hearing',                    description: 'North Highlands, CA. Northern California Collaborative', visible: false });                infobox90.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin90, 'click', function () {                    infobox90.setOptions({ visible: true });                });                map.entities.push(pushpin90);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox90.setOptions({ visible: false });                });                //Opening Doors                var center91 = new Microsoft.Maps.Location(38.586358, -121.415965);                var pushpin91 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.586358, -121.415965));                var infobox91 = new Microsoft.Maps.Infobox(center91, { title: 'Opening Doors',                    description: 'Sacramento, CA. Northern California Collaborative', visible: false });                infobox91.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin91, 'click', function () {                    infobox91.setOptions({ visible: true });                });                map.entities.push(pushpin91);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox91.setOptions({ visible: false });                });                //Project Sanctuary                var center92 = new Microsoft.Maps.Location(39.150171, -123.207783);                var pushpin92 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.150171, -123.207783));                var infobox92 = new Microsoft.Maps.Infobox(center92, { title: 'Project Sanctuary',                    description: 'Ukiah, CA. SafeNight App', visible: false });                infobox92.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin92, 'click', function () {                    infobox92.setOptions({ visible: true });                });                map.entities.push(pushpin92);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox92.setOptions({ visible: false });                });                //Renew Life Center                var center93 = new Microsoft.Maps.Location(40.916765, -74.171811);                var pushpin93 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.916765, -74.171811));                var infobox93 = new Microsoft.Maps.Infobox(center93, { title: 'Renew Life Center',                    description: 'Paterson, NJ. New Jersey Collaborative', visible: false });                infobox93.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin93, 'click', function () {                    infobox93.setOptions({ visible: true });                });                map.entities.push(pushpin93);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox93.setOptions({ visible: false });                });                //Restore NYC                var center94 = new Microsoft.Maps.Location(40.741333, -73.903649);                var pushpin94 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.741333, -73.903649));                var infobox94 = new Microsoft.Maps.Infobox(center94, { title: 'Restore NYC',                    description: 'New York, NY. SafeNight App', visible: false });                infobox94.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin94, 'click', function () {                    infobox94.setOptions({ visible: true });                });                map.entities.push(pushpin94);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox94.setOptions({ visible: false });                });                //Sacramento County District Attorney's Office                var center95 = new Microsoft.Maps.Location(38.58418, -121.493031);                var pushpin95 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.58418, -121.493031));                var infobox95 = new Microsoft.Maps.Infobox(center95, { title: 'Sacramento County District Attorney\'s Office',                    description: 'Sacramento, CA. Northern California Collaborative', visible: false });                infobox95.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin95, 'click', function () {                    infobox95.setOptions({ visible: true });                });                map.entities.push(pushpin95);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox95.setOptions({ visible: false });                });                //Sanar Wellness Institute                var center96 = new Microsoft.Maps.Location(40.735657, -74.172367);                var pushpin96 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.735657, -74.172367));                var infobox96 = new Microsoft.Maps.Infobox(center96, { title: 'Sanar Wellness Institute',                    description: 'Newark, NJ. New Jersey Collaborative', visible: false });                infobox96.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin96, 'click', function () {                    infobox96.setOptions({ visible: true });                });                map.entities.push(pushpin96);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox96.setOptions({ visible: false });                });                //STAND! For Families Free of Violence                var center97 = new Microsoft.Maps.Location(37.977978, -122.031073);                var pushpin97 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.977978, -122.031073));                var infobox97 = new Microsoft.Maps.Infobox(center97, { title: 'STAND! For Families Free of Violence',                    description: 'Concord, CA. SafeNight App', visible: false });                infobox97.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin97, 'click', function () {                    infobox97.setOptions({ visible: true });                });                map.entities.push(pushpin97);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox97.setOptions({ visible: false });                });                //The Life of Freedom Center                var center98 = new Microsoft.Maps.Location(25.790654, -80.130045);                var pushpin98 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(25.790654, -80.130045));                var infobox98 = new Microsoft.Maps.Infobox(center98, { title: 'The Life of Freedom Center',                    description: 'Miami Beach, FL. SafeNight App', visible: false });                infobox98.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin98, 'click', function () {                    infobox98.setOptions({ visible: true });                });                map.entities.push(pushpin98);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox98.setOptions({ visible: false });                });                //The Second Step                var center99 = new Microsoft.Maps.Location(42.346777, -71.207232);                var pushpin99 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(42.346777, -71.207232));                var infobox99 = new Microsoft.Maps.Infobox(center99, { title: 'The Second Step',                    description: 'Newtonville, MA. SafeNight App', visible: false });                infobox99.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin99, 'click', function () {                    infobox99.setOptions({ visible: true });                });                map.entities.push(pushpin99);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox99.setOptions({ visible: false });                });                //WestCoast Children's Clinic                var center100 = new Microsoft.Maps.Location(37.775808, -122.224782);                var pushpin100 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.775808, -122.224782));                var infobox100 = new Microsoft.Maps.Infobox(center100, { title: 'WestCoast Children\'s Clinic',                    description: 'Oakland, CA. Northern California Collaborative', visible: false });                infobox100.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin100, 'click', function () {                    infobox100.setOptions({ visible: true });                });                map.entities.push(pushpin100);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox100.setOptions({ visible: false });                });                //Wild Iris Crisis Center                var center101 = new Microsoft.Maps.Location(37.648546, -118.972079);                var pushpin101 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.648546, -118.972079));                var infobox101 = new Microsoft.Maps.Infobox(center101, { title: 'Wild Iris Crisis Center',                    description: 'Mammoth Lake, CA. SafeNight App', visible: false });                infobox101.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin101, 'click', function () {                    infobox101.setOptions({ visible: true });                });                map.entities.push(pushpin101);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox101.setOptions({ visible: false });                });                //WISE & Healthy Aging                var center102 = new Microsoft.Maps.Location(34.019454, -118.491191);                var pushpin102 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.019454, -118.491191));                var infobox102 = new Microsoft.Maps.Infobox(center102, { title: 'WISE & Healthy Aging',                    description: 'Santa Monica, CA. SafeNight App', visible: false });                infobox102.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin102, 'click', function () {                    infobox102.setOptions({ visible: true });                });                map.entities.push(pushpin102);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox102.setOptions({ visible: false });                });                //Women Called Moses Coalition and Outreach Inc                var center103 = new Microsoft.Maps.Location(32.651800, -96.908337);                var pushpin103 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.651800, -96.908337));                var infobox103 = new Microsoft.Maps.Infobox(center103, { title: 'Women Called Moses Coalition and Outreach Inc',                    description: 'Duncanville, TX. Texas Collaborative', visible: false });                infobox103.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin103, 'click', function () {                    infobox103.setOptions({ visible: true });                });                map.entities.push(pushpin103);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox103.setOptions({ visible: false });                });                //Advocates for Lake County                var center104 = new Microsoft.Maps.Location(39.2508, -106.2925);                var pushpin104 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.2508, -106.2925));                var infobox104 = new Microsoft.Maps.Infobox(center104, { title: 'Advocates for Lake County',                    description: 'Leadville, CO. Colorado Collaborative', visible: false });                infobox104.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin104, 'click', function () {                    infobox104.setOptions({ visible: true });                });                map.entities.push(pushpin104);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox104.setOptions({ visible: false });                });                //Deaf Overcoming Violence through Empowerment                var center105 = new Microsoft.Maps.Location(39.7312, -104.9827);                var pushpin105 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.7312, -104.9827));                var infobox105 = new Microsoft.Maps.Infobox(center105, { title: 'Deaf Overcoming Violence through Empowerment',                    description: 'Denver, CO. Colorado Collaborative', visible: false });                infobox105.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin105, 'click', function () {                    infobox105.setOptions({ visible: true });                });                map.entities.push(pushpin105);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox105.setOptions({ visible: false });                });                //Young Women's Freedom Center                var center106 = new Microsoft.Maps.Location(37.773972, -122.431297);                var pushpin106 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.773972, -122.431297));                var infobox106 = new Microsoft.Maps.Infobox(center106, { title: 'Young Women\'s Freedom Center',                    description: 'San Francisco, CA. Northern California Collaborative', visible: false });                infobox106.setMap(map);                Microsoft.Maps.Events.addHandler(pushpin106, 'click', function () {                    infobox106.setOptions({ visible: true });                });                map.entities.push(pushpin106);                Microsoft.Maps.Events.addHandler(map, 'click', function () {                    infobox106.setOptions({ visible: false });                });            }        </script>        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario' async defer></script>    </body></html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>displayInfoboxOnClickPushpinHTML</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    </head>
+    <body>
+        <div id='printoutPanel'></div>
+
+        <div id="myMap" style="position:relative;width:602px;height:600px;"></div>
+        <script type='text/javascript'>
+            function loadMapScenario() {
+                var map = new Microsoft.Maps.Map('#myMap', {
+                    credentials: 'FrSoljAZozw6GQtkVvLU~VITgwpozjJq2A8Q72t53xg~Agir8vDX_8amHOvOeHq6yDuO9aCS7Pehkl-rRvBQjz0QYrzx_BbSt7NjV9I4a-8q',
+                    center: new Microsoft.Maps.Location(38, -98.0),
+    zoom: 4
+                });
+                //AACI Asian Women's Home
+                var center1 = new Microsoft.Maps.Location(37.312286,
+-121.925293);
+                var pushpin1 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.312286,
+            -121.925293));
+                var infobox1 = new Microsoft.Maps.Infobox(center1, { title: 'AACI Asian Women\'s Home',
+                    description: 'San Jose, CA. Northern California Collaborative <br/> <a href="http://aaci.org/" target="_blank">AACI</a>', visible: false });
+                infobox1.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin1, 'click', function () {
+                    infobox1.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin1);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox1.setOptions({ visible: false });
+                });
+                //Community Solutions
+                var center2 = new Microsoft.Maps.Location(37.241368, -121.860203);
+                var pushpin2 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.241368, -121.860203));
+                var infobox2 = new Microsoft.Maps.Infobox(center2, { title: 'Community Solutions',
+                    description: 'Gilroy, CA. Northern California Collaborative <br/> <a href="http://communitysolutions.org/" target="_blank">Community Solutions</a>', visible: false });
+                infobox2.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin2, 'click', function () {
+                    infobox2.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin2);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox2.setOptions({ visible: false });
+                });
+                //CORA
+                var center3 = new Microsoft.Maps.Location(37.546624, -122.306174);
+                var pushpin3 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.546624, -122.306174));
+                var infobox3 = new Microsoft.Maps.Infobox(center3, { title: 'CORA',
+                    description: 'San Mateo, CA. Northern California Collaborative <br/> <a href="https://www.corasupport.org/" target="_blank">CORA</a>', visible: false });
+                infobox3.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin3, 'click', function () {
+                    infobox3.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin3);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox3.setOptions({ visible: false });
+                });
+                //Corbett Group Homes and The R.I.S.E. Program
+                var center4 = new Microsoft.Maps.Location(37.393086, -121.891589);
+                var pushpin4 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.393086, -121.891589));
+                var infobox4 = new Microsoft.Maps.Infobox(center4, { title: 'Corbett Group Homes and The R.I.S.E. Program',
+                    description: 'San Jose, CA. Northern California Collaborative <br/> <a href="http://www.corbettgrouphomes.org/" target="_blank">Corbett Group Homes</a>', visible: false });
+                infobox4.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin4, 'click', function () {
+                    infobox4.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin4);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox4.setOptions({ visible: false });
+                });
+                //180 Turning Lives Around
+                var center5 = new Microsoft.Maps.Location(40.428953, -74.165099);
+                var pushpin5 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.428953, -74.165099));
+                var infobox5 = new Microsoft.Maps.Infobox(center5, { title: '180 Turning Lives Around',
+                    description: 'Hazlet, NJ. New Jersey Collaborative <br/> <a href="http://180nj.org/" target="_blank">180 Turning Lives Around</a>', visible: false });
+                infobox5.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin5, 'click', function () {
+                    infobox5.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin5);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox5.setOptions({ visible: false });
+                });
+                //Advocates for Victims of Assault
+                var center6 = new Microsoft.Maps.Location(39.574431, -106.097520);
+                var pushpin6 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.574431, -106.097520));
+                var infobox6 = new Microsoft.Maps.Infobox(center6, { title: 'Advocates for Victims of Assault',
+                    description: 'Frisco, CO. Colorado Collaborative <br/> <a href="http://www.summitadvocates.org/" target="_blank">Advocates for Victims of Assualt</a>', visible: false });
+                infobox6.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin6, 'click', function () {
+                    infobox6.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin6);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox6.setOptions({ visible: false });
+                });
+                //Alternatives to Violence - Colorado
+                var center7 = new Microsoft.Maps.Location(40.397761, -105.074980);
+                var pushpin7 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.397761, -105.074980));
+                var infobox7 = new Microsoft.Maps.Infobox(center7, { title: 'Alternatives to Violence',
+                    description: 'Loveland, CO. Colorado Collaborative <br/> <a href="https://www.alternativestoviolence.org/" target="_blank">Alternatives to Violence</a>', visible: false });
+                infobox7.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin7, 'click', function () {
+                    infobox7.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin7);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox7.setOptions({ visible: false });
+                });
+                //Brighter Tomorrows
+                var center8 = new Microsoft.Maps.Location(32.814018, -96.948894);
+                var pushpin8 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.814018, -96.948894));
+                var infobox8 = new Microsoft.Maps.Infobox(center8, { title: 'Brighter Tomorrows',
+                    description: 'Irving, TX. Texas Collaborative <br/> <a href="https://www.brightertomorrows.net/" target="_blank">Brighter Tomorrows</a>', visible: false });
+                infobox8.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin8, 'click', function () {
+                    infobox8.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin8);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox8.setOptions({ visible: false });
+                });
+                //Camden County Women's Center
+                var center9 = new Microsoft.Maps.Location(39.802336, -75.064060);
+                var pushpin9 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.802336, -75.064060));
+                var infobox9 = new Microsoft.Maps.Infobox(center9, { title: 'Camden County Women\'s Center',
+                    description: 'Blackwood, NJ. New Jersey Collaborative <br/> <a href="http://www.camdencountywomenscenter.org/" target="_blank">Camden County Women\'s Center</a>', visible: false });
+                infobox9.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin9, 'click', function () {
+                    infobox9.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin9);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox9.setOptions({ visible: false });
+                });
+                //Center FFS/SERV Cumberland
+                var center10 = new Microsoft.Maps.Location(39.258711, -75.061115);
+                var pushpin10 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.258711, -75.061115));
+                var infobox10 = new Microsoft.Maps.Infobox(center10, { title: 'Center FFS/SERV Cumberland',
+                    description: 'Cumberland, NJ. New Jersey Collaborative <br/> <a href="https://www.centerffs.org/serv" target="_blank">Center FFS/SERV Cumberland</a>', visible: false });
+                infobox10.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin10, 'click', function () {
+                    infobox10.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin10);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox10.setOptions({ visible: false });
+                });
+                //Center FFS/SERV Gloucester
+                var center11 = new Microsoft.Maps.Location(39.891780, -75.116286);
+                var pushpin11 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.891780, -75.116286));
+                var infobox11 = new Microsoft.Maps.Infobox(center11, { title: 'Center FFS/SERV Gloucester',
+                    description: 'Gloucester, NJ. New Jersey Collaborative <br/> <a href="https://www.centerffs.org/serv" target="_blank">Center FFS/SERV Gloucester</a>', visible: false });
+                infobox11.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin11, 'click', function () {
+                    infobox11.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin11);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox11.setOptions({ visible: false });
+                });
+                //Center FFS/SERV Together
+                var center12 = new Microsoft.Maps.Location(39.702892, -75.111842);
+                var pushpin12 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.702892, -75.111842));
+                var infobox12 = new Microsoft.Maps.Infobox(center12, { title: 'Center FFS/SERV Together',
+                    description: 'Glassboro, NJ. New Jersey Collaborative <br/> <a href="https://www.centerffs.org/serv" target="_blank">Center FFS/SERV Together</a>', visible: false });
+                infobox12.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin12, 'click', function () {
+                    infobox12.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin12);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox12.setOptions({ visible: false });
+                });
+                //Crisis Center
+                var center13 = new Microsoft.Maps.Location(39.372212, -104.856090);
+                var pushpin13 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.372212, -104.856090));
+                var infobox13 = new Microsoft.Maps.Infobox(center13, { title: 'Crisis Center',
+                    description: 'Castle Rock, CO. Colorado Collaborative <br/> <a href="http://thecrisiscenter.org/" target="_blank">Crisis Center</a>', visible: false });
+                infobox13.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin13, 'click', function () {
+                    infobox13.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin13);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox13.setOptions({ visible: false });
+                });
+                //Crossroads Safehouse
+                var center14 = new Microsoft.Maps.Location(40.585260, -105.084423);
+                var pushpin14 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.585260, -105.084423));
+                var infobox14 = new Microsoft.Maps.Infobox(center14, { title: 'Crossroads Safehouse',
+                    description: 'Fort Collins, CO. Colorado Collaborative <br/> <a href="http://www.crossroadssafehouse.org/" target="_blank">Crossroads Safehouse</a>', visible: false });
+                infobox14.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin14, 'click', function () {
+                    infobox14.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin14);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox14.setOptions({ visible: false });
+                });
+                //Denton County Friends of the Family
+                var center15 = new Microsoft.Maps.Location(33.214841, -97.133068);
+                var pushpin15 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.214841, -97.133068));
+                var infobox15 = new Microsoft.Maps.Infobox(center15, { title: 'Denton County Friends of the Family',
+                    description: 'Denton, TX. Texas Collaborative <br/> <a href="https://www.dcfof.org/" target="_blank">Denton County Friends of the Family</a>', visible: false });
+                infobox15.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin15, 'click', function () {
+                    infobox15.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin15);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox15.setOptions({ visible: false });
+                });
+                //Domestic Abuse and Sexual Assualt Crisis Center
+                var center16 = new Microsoft.Maps.Location(40.758433, -74.979338);
+                var pushpin16 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.758433, -74.979338));
+                var infobox16 = new Microsoft.Maps.Infobox(center16, { title: 'Domestic Abuse and Sexual Assualt Crisis Center',
+                    description: 'Washington, NJ. New Jersey Collaborative <br/> <a href="https://www.dasacc.org/" target="_blank">Domestic Abuse and Sexual Assualt Crisis Center</a>', visible: false });
+                infobox16.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin16, 'click', function () {
+                    infobox16.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin16);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox16.setOptions({ visible: false });
+                });
+                //DreamCatcher Youth Services
+                var center17 = new Microsoft.Maps.Location(37.799245, -122.278695);
+                var pushpin17 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.799245, -122.278695));
+                var infobox17 = new Microsoft.Maps.Infobox(center17, { title: 'DreamCatcher Youth Services',
+                    description: 'Alameda, CA. Northern California Collaborative <br/> <a href="http://www.alamedafs.org/dreamcatcher/" target="_blank">DreamCatcher Youth Services</a>', visible: false });
+                infobox17.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin17, 'click', function () {
+                    infobox17.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin17);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox17.setOptions({ visible: false });
+                });
+                //Estes Valley Crisis Advocates
+                var center18 = new Microsoft.Maps.Location(40.377206, -105.521665);
+                var pushpin18 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.377206, -105.521665));
+                var infobox18 = new Microsoft.Maps.Infobox(center18, { title: 'Estes Valley Crisis Advocates',
+                    description: 'Estes Park, CO. Colorado Collaborative <br/> <a href="http://www.estesvalleycrisisadvocates.org/" target="_blank">Estes Valley Crisis Advocates</a>', visible: false });
+                infobox18.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin18, 'click', function () {
+                    infobox18.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin18);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox18.setOptions({ visible: false });
+                });
+                //Freedom House
+                var center19 = new Microsoft.Maps.Location(37.589952, -122.363342);
+                var pushpin19 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.589952, -122.363342));
+                var infobox19 = new Microsoft.Maps.Infobox(center19, { title: 'Freedom House',
+                    description: 'Burlingame, Ca. Northern California Collaborative <br/> <a href="http://www.freedomhousesf.org/" target="_blank">Freedom House</a>', visible: false });
+                infobox19.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin19, 'click', function () {
+                    infobox19.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin19);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox19.setOptions({ visible: false });
+                });
+                //Gateway Domestic Violence Services
+                var center20 = new Microsoft.Maps.Location(39.729432, -104.83192);
+                var pushpin20 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.729432, -104.83192));
+                var infobox20 = new Microsoft.Maps.Infobox(center20, { title: 'Gateway Domestic Violence Services',
+                    description: 'Aurora, CO. Colorado Collaborative <br/> <a href="http://www.gateway2.org/" target="_blank">Gateway Domestic Violence Services</a>', visible: false });
+                infobox20.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin20, 'click', function () {
+                    infobox20.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin20);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox20.setOptions({ visible: false });
+                });
+                //Hope's Door - Garland
+                var center21 = new Microsoft.Maps.Location(32.912624, -96.638883);
+                var pushpin21 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.912624, -96.638883));
+                var infobox21 = new Microsoft.Maps.Infobox(center21, { title: 'Hope\'s Door - Garland',
+                    description: 'Garland, TX. Texas Collaborative <br/> <a href="https://www.hopesdoorinc.org/" target="_blank">Hope\'s Door - Garland</a>', visible: false });
+                infobox21.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin21, 'click', function () {
+                    infobox21.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin21);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox21.setOptions({ visible: false });
+                });
+                //Hope's Door - Plano
+                var center22 = new Microsoft.Maps.Location(33.019843, -96.698886);
+                var pushpin22 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.019843, -96.698886));
+                var infobox22 = new Microsoft.Maps.Infobox(center22, { title: 'Hope\'s Door - Plano',
+                    description: 'Plano, TX. Texas Collaborative <br/> <a href="https://www.hopesdoorinc.org/" target="_blank">Hope\'s Door - Plano</a>', visible: false });
+                infobox22.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin22, 'click', function () {
+                    infobox22.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin22);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox22.setOptions({ visible: false });
+                });
+                //Huckleberry Youth Program
+                var center23 = new Microsoft.Maps.Location(37.774929, -122.419416);
+                var pushpin23 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.774929, -122.419416));
+                var infobox23 = new Microsoft.Maps.Infobox(center23, { title: 'Huckleberry Youth Program',
+                    description: 'San Francisco, CA. Northern California Collaborative <br/> <a href="https://www.huckleberryyouth.org/" target="_blank">Huckleberry Youth Program</a>', visible: false });
+                infobox23.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin23, 'click', function () {
+                    infobox23.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin23);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox23.setOptions({ visible: false });
+                });
+                //Jersey Battered Women's Services
+                var center24 = new Microsoft.Maps.Location(40.796767, -74.481544);
+                var pushpin24 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.796767, -74.481544));
+                var infobox24 = new Microsoft.Maps.Infobox(center24, { title: 'Jersey Battered Women\'s Services',
+                    description: 'Morristown, NJ. New Jersey Collaborative <br/> <a href="http://www.jbws.org/" target="_blank">Jersey Battered Women\'s Services</a>', visible: false });
+                infobox24.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin24, 'click', function () {
+                    infobox24.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin24);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox24.setOptions({ visible: false });
+                });
+                //Jewish Family and Children's Services
+                var center25 = new Microsoft.Maps.Location(39.926813, -75.024631);
+                var pushpin25 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.926813, -75.024631));
+                var infobox25 = new Microsoft.Maps.Infobox(center25, { title: 'Jewish Family and Children\'s Services',
+                    description: 'Cherry Hill , NJ. New Jersey Collaborative <br/> <a href="https://jfcssnj.org/" target="_blank">Jewish Family and Children\'s Services</a>', visible: false });
+                infobox25.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin25, 'click', function () {
+                    infobox25.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin25);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox25.setOptions({ visible: false });
+                });
+                //Larkin Street Youth Services
+                var center26 = new Microsoft.Maps.Location(37.782074, -122.413105);
+                var pushpin26 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.782074, -122.413105));
+                var infobox26 = new Microsoft.Maps.Infobox(center26, { title: 'Larkin Street Youth Services',
+                    description: 'San Francisco , CA. Northern California Collaborative <br/> <a href="http://larkinstreetyouth.org/" target="_blank">Larkin Street Youth Services</a>', visible: false });
+                infobox26.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin26, 'click', function () {
+                    infobox26.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin26);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox26.setOptions({ visible: false });
+                });
+                //Love Never Fails
+                var center27 = new Microsoft.Maps.Location(37.707856, -121.924432);
+                var pushpin27 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.707856, -121.924432));
+                var infobox27 = new Microsoft.Maps.Infobox(center27, { title: 'Love Never Fails',
+                    description: 'Dublin , CA. Northern California Collaborative <br/> <a href="https://www.loveneverfailsus.com/" target="_blank">Love Never Fails</a>', visible: false });
+                infobox27.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin27, 'click', function () {
+                    infobox27.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin27);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox27.setOptions({ visible: false });
+                });
+                //Monarch Services
+                var center28 = new Microsoft.Maps.Location(36.914321, -121.755055);
+                var pushpin28 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(36.914321, -121.755055));
+                var infobox28 = new Microsoft.Maps.Infobox(center28, { title: 'Monarch Services',
+                    description: 'Santa Cruz , CA. Northern California Collaborative <br/> <a href="http://www.monarchscc.org/" target="_blank">Monarch Services</a>', visible: false });
+                infobox28.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin28, 'click', function () {
+                    infobox28.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin28);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox28.setOptions({ visible: false });
+                });
+                //Mosaic Family Services
+                var center29 = new Microsoft.Maps.Location(32.776664, -96.796988);
+                var pushpin29 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.776664, -96.796988));
+                var infobox29 = new Microsoft.Maps.Infobox(center29, { title: 'Mosaic Family Services',
+                    description: 'Dallas , TX. Texas Collaborative <br/> <a href="http://mosaicservices.org/" target="_blank">Mosaic Family Services</a>', visible: false });
+                infobox29.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin29, 'click', function () {
+                    infobox29.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin29);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox29.setOptions({ visible: false });
+                });
+                //My Sister's House
+                var center30 = new Microsoft.Maps.Location(38.549031, -121.488963);
+                var pushpin30 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.549031, -121.488963));
+                var infobox30 = new Microsoft.Maps.Infobox(center30, { title: 'My Sister\'s House',
+                    description: 'Sacramento , CA. Nothern California Collaborative <br/> <a href="http://www.my-sisters-house.org/" target="_blank">My Sister\'s House</a>', visible: false });
+                infobox30.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin30, 'click', function () {
+                    infobox30.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin30);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox30.setOptions({ visible: false });
+                });
+                //New Friends New Life
+                var center31 = new Microsoft.Maps.Location(32.8122, -96.8110);
+                var pushpin31 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.8122, -96.8110));
+                var infobox31 = new Microsoft.Maps.Infobox(center31, { title: 'New Friends New Life',
+                    description: 'Dallas, TX. Texas Collaborative <br/> <a href="http://www.newfriendsnewlife.org/" target="_blank">New Friends New Life</a>', visible: false });
+                infobox31.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin31, 'click', function () {
+                    infobox31.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin31);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox31.setOptions({ visible: false });
+                });
+                //Providence House Burlington
+                var center32 = new Microsoft.Maps.Location(40.015892, -74.956425);
+                var pushpin32 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.015892, -74.956425));
+                var infobox32 = new Microsoft.Maps.Infobox(center32, { title: 'Providence House Burlington',
+                    description: 'Delran , NJ. New Jersey Collaborative <br/> <a href="https://www.catholiccharitiestrenton.org/domestic-violence-services/" target="_blank">Providence House Burlington</a>', visible: false });
+                infobox32.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin32, 'click', function () {
+                    infobox32.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin32);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox32.setOptions({ visible: false });
+                });
+                //Providence House Ocean
+                var center33 = new Microsoft.Maps.Location(39.954363, -74.378734);
+                var pushpin33 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.954363, -74.378734));
+                var infobox33 = new Microsoft.Maps.Infobox(center33, { title: 'Providence House Ocean',
+                    description: 'Whiting , NJ. New Jersey Collaborative <br/> <a href="https://www.catholiccharitiestrenton.org/domestic-violence-services/" target="_blank">Providence House Ocean</a>', visible: false });
+                infobox33.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin33, 'click', function () {
+                    infobox33.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin33);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox33.setOptions({ visible: false });
+                });
+                //The Montrose Center
+                var center34 = new Microsoft.Maps.Location(29.760427, -95.369803);
+                var pushpin34 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(29.760427, -95.369803));
+                var infobox34 = new Microsoft.Maps.Infobox(center34, { title: 'The Montrose Center',
+                    description: 'Houston, TX. SafeNight App <br/> <a href="https://www.montrosecenter.org/hub/" target="_blank">The Montrose Center</a>', visible: false });
+                infobox34.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin34, 'click', function () {
+                    infobox34.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin34);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox34.setOptions({ visible: false });
+                });
+                //Ruby's Place
+                var center35 = new Microsoft.Maps.Location(37.675098, -122.079842);
+                var pushpin35 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.675098, -122.079842));
+                var infobox35 = new Microsoft.Maps.Infobox(center35, { title: 'Ruby\'s Place',
+                    description: 'Hayward, CA. Northern California Collaborative <br/> <a href="http://www.rubysplace.org/wp/" target="_blank">Ruby\'s Place</a>', visible: false });
+                infobox35.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin35, 'click', function () {
+                    infobox35.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin35);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox35.setOptions({ visible: false });
+                });
+                //Safe House
+                var center36 = new Microsoft.Maps.Location(40.806755, -74.185421);
+                var pushpin36 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.806755, -74.185421));
+                var infobox36 = new Microsoft.Maps.Infobox(center36, { title: 'Safe House',
+                    description: 'Bloomfield, NJ. New Jersey Collaborative', visible: false });
+                infobox36.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin36, 'click', function () {
+                    infobox36.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin36);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox36.setOptions({ visible: false });
+                });
+                //Safe in Hunterdon
+                var center37 = new Microsoft.Maps.Location(40.512326, -74.859332);
+                var pushpin37 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.512326, -74.859332));
+                var infobox37 = new Microsoft.Maps.Infobox(center37, { title: 'Safe in Hunterdon',
+                    description: 'Flemington, NJ. New Jersey Collaborative <br/> <a href="http://www.safeinhunterdon.org/" target="_blank">Safe In Hunterdon</a>', visible: false });
+                infobox37.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin37, 'click', function () {
+                    infobox37.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin37);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox37.setOptions({ visible: false });
+                });
+                //Safehouse Progressive Alliance for Nonviolence
+                var center38 = new Microsoft.Maps.Location(40.014986, -105.270546);
+                var pushpin38 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.014986, -105.270546));
+                var infobox38 = new Microsoft.Maps.Infobox(center38, { title: 'Safehouse Progressive Alliance for Nonviolence',
+                    description: 'Boulder, CO. Colorado Collaborative <br/> <a href="http://www.safehousealliance.org/" target="_blank">Safehouse Progressive Alliance for Nonviolence</a>', visible: false });
+                infobox38.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin38, 'click', function () {
+                    infobox38.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin38);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox38.setOptions({ visible: false });
+                });
+                //Safe Shelter of St Vrain Valley
+                var center39 = new Microsoft.Maps.Location(40.167207, -105.101927);
+                var pushpin39 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.167207, -105.101927));
+                var infobox39 = new Microsoft.Maps.Infobox(center39, { title: 'Safe Shelter of St Vrain Valley',
+                    description: 'Longmont, CO. Colorado Collaborative <br/> <a href="http://www.safeshelterofstvrain.org/" target="_blank">Safe Shelter of St Vrain Valley</a>', visible: false });
+                infobox39.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin39, 'click', function () {
+                    infobox39.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin39);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox39.setOptions({ visible: false });
+                });
+                //Stand Up Placer
+                var center40 = new Microsoft.Maps.Location(38.941498, -121.099099);
+                var pushpin40 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.941498, -121.099099));
+                var infobox40 = new Microsoft.Maps.Infobox(center40, { title: 'Stand Up Placer',
+                    description: 'Auburn, CA. Northern California Collaborative <br/> <a href="http://www.standupplacer.org/" target="_blank">Stand Up Placer</a>', visible: false });
+                infobox40.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin40, 'click', function () {
+                    infobox40.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin40);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox40.setOptions({ visible: false });
+                });
+                //Tahoe SAFE Alliance
+                var center41 = new Microsoft.Maps.Location(39.2497, -119.9527);
+                var pushpin41 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.2497, -119.9527));
+                var infobox41 = new Microsoft.Maps.Infobox(center41, { title: 'Tahoe SAFE Alliance',
+                    description: 'Incline Village, NV. Northern California Collaborative <br/> <a href="https://tahoesafealliance.org/" target="_blank">Tahoe SAFE Alliance</a>', visible: false });
+                infobox41.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin41, 'click', function () {
+                    infobox41.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin41);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox41.setOptions({ visible: false });
+                });
+                //The Chest of Hope
+                var center42 = new Microsoft.Maps.Location(37.739356, -121.424377);
+                var pushpin42 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.739356, -121.424377));
+                var infobox42 = new Microsoft.Maps.Infobox(center42, { title: 'The Chest of Hope',
+                    description: 'Tracy, CA. Northern California Collaborative <br/> <a href="http://www.chestofhope.org/home.aspx" target="_blank">The Chest of Hope</a>', visible: false });
+                infobox42.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin42, 'click', function () {
+                    infobox42.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin42);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox42.setOptions({ visible: false });
+                });
+                //The Salvation Army - Dallas
+                var center43 = new Microsoft.Maps.Location(32.8167, -96.8834);
+                var pushpin43 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.8167, -96.8834));
+                var infobox43 = new Microsoft.Maps.Infobox(center43, { title: 'The Salvation Army',
+                    description: 'Dallas, TX. Texas Collaborative <br/> <a href="https://www.salvationarmydfw.org/default.aspx" target="_blank">The Salvation Army</a>', visible: false });
+                infobox43.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin43, 'click', function () {
+                    infobox43.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin43);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox43.setOptions({ visible: false });
+                });
+                //TWC - DreamCatcher
+                var center44 = new Microsoft.Maps.Location(39.339838, -74.575156);
+                var pushpin44 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.339838, -74.575156));
+                var infobox44 = new Microsoft.Maps.Infobox(center44, { title: 'TWC - DreamCatcher',
+                    description: 'Linwood, NJ. New Jersey Collaborative <br/> <a href="http://www.acwc.org/dreamcatcher.htm" target="_blank">TWC - DreamCatcher</a>', visible: false });
+                infobox44.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin44, 'click', function () {
+                    infobox44.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin44);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox44.setOptions({ visible: false });
+                });
+                //TWC - VIP
+                var center45 = new Microsoft.Maps.Location(39.533338, -74.686882);
+                var pushpin45 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.533338, -74.686882));
+                var infobox45 = new Microsoft.Maps.Infobox(center45, { title: 'TWC - VIP',
+                    description: 'Atlantic County, NJ. New Jersey Collaborative <br/> <a href="http://www.acwc.org/vip.htm" target="_blank">TWC - VIP</a>', visible: false });
+                infobox45.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin45, 'click', function () {
+                    infobox45.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin45);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox45.setOptions({ visible: false });
+                });
+                //Twin Oaks
+                var center46 = new Microsoft.Maps.Location(39.993144, -74.787939);
+                var pushpin46 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.993144, -74.787939));
+                var infobox46 = new Microsoft.Maps.Infobox(center46, { title: 'Twin Oaks',
+                    description: 'Mount Holly, NJ. New Jersey Collaborative <br/> <a href="https://oaksintcare.org/" target="_blank">Twin Oaks</a>', visible: false });
+                infobox46.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin46, 'click', function () {
+                    infobox46.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin46);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox46.setOptions({ visible: false });
+                });
+                //Visions and Pathways
+                var center47 = new Microsoft.Maps.Location(40.593964, -74.604906);
+                var pushpin47 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.593964, -74.604906));
+                var infobox47 = new Microsoft.Maps.Infobox(center47, { title: 'Visions and Pathway',
+                    description: 'Bridgewater, NJ. New Jersey Collaborative <br/> <a href="https://visionsandpathways.org/" target="_blank">Visions and Pathways</a>', visible: false });
+                infobox47.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin47, 'click', function () {
+                    infobox47.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin47);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox47.setOptions({ visible: false });
+                });
+                //WEAVE
+                var center48 = new Microsoft.Maps.Location(38.57558, -121.481533);
+                var pushpin48 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.57558, -121.481533));
+                var infobox48 = new Microsoft.Maps.Infobox(center48, { title: 'WEAVE',
+                    description: 'Sacramento, CA. Northern California Collaborative <br/> <a href="https://www.weaveinc.org/" target="_blank">WEAVE</a>', visible: false });
+                infobox48.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin48, 'click', function () {
+                    infobox48.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin48);
+                //Womanspace, Inc.
+                var center49 = new Microsoft.Maps.Location(40.301637, -74.736101);
+                var pushpin49 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.301637, -74.736101));
+                var infobox49 = new Microsoft.Maps.Infobox(center49, { title: 'Womanspace, Inc.',
+                    description: 'Lawrenceville, NJ. New Jersey Collaborative <br/> <a href="https://womanspace.org/" target="_blank">Womanspace</a>', visible: false });
+                infobox49.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin49, 'click', function () {
+                    infobox49.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin49);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox49.setOptions({ visible: false });
+                });
+                //Women Aware
+                var center50 = new Microsoft.Maps.Location(40.486216, -74.451819);
+                var pushpin50 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.486216, -74.451819));
+                var infobox50 = new Microsoft.Maps.Infobox(center50, { title: 'Women Aware',
+                    description: 'New Brunswick, NJ. New Jersey Collaborative <br/> <a href="https://www.womenaware.net/" target="_blank">Women Aware</a>', visible: false });
+                infobox50.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin50, 'click', function () {
+                    infobox50.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin50);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox50.setOptions({ visible: false });
+                });
+                //Youth Consultation Services
+                var center51 = new Microsoft.Maps.Location(40.735657, -74.172367);
+                var pushpin51 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.735657, -74.172367));
+                var infobox51 = new Microsoft.Maps.Infobox(center51, { title: 'Youth Consultation Services',
+                    description: 'Newark, NJ. New Jersey Collaborative <br/> <a href="http://www.ycs.org/" target="_blank">Youth Consultation Services</a>', visible: false });
+                infobox51.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin51, 'click', function () {
+                    infobox51.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin51);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox51.setOptions({ visible: false });
+                });
+                //YWCA Pueblo Family Crisis Shelter
+                var center52 = new Microsoft.Maps.Location(38.254447, -104.609141);
+                var pushpin52 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.254447, -104.609141));
+                var infobox52 = new Microsoft.Maps.Infobox(center52, { title: 'YWCA Pueblo Family Crisis Shelter',
+                    description: 'Pueblo, CO. Colorado Collaborative <br/> <a href="http://www.ywcapueblo.com/domestic-violence-services" target="_blank">YWCA Pueblo Family Crisis Shelter</a>', visible: false });
+                infobox52.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin52, 'click', function () {
+                    infobox52.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin52);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox52.setOptions({ visible: false });
+                });
+                //YWCA Silicon Valley
+                var center53 = new Microsoft.Maps.Location(37.331507, -121.88442);
+                var pushpin53 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.331507, -121.88442));
+                var infobox53 = new Microsoft.Maps.Infobox(center53, { title: 'YWCA Silicon Valley',
+                    description: 'San Jose, CA. Northern California Collaborative <br/> <a href="http://ywca-sv.org/" target="_blank">YWCA Silicon Valley</a>', visible: false });
+                infobox53.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin53, 'click', function () {
+                    infobox53.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin53);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox53.setOptions({ visible: false });
+                });
+                //Women Center Youth and Families
+                var center54 = new Microsoft.Maps.Location(37.959657, -121.288418);
+                var pushpin54 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.959657, -121.288418));
+                var infobox54 = new Microsoft.Maps.Infobox(center54, { title: 'Women Center Youth and Families',
+                    description: 'Stockton , CA. Northern California Collaborative <br/> <a href="http://www.womenscenteryfs.org/" target="_blank">Women Center Youth and Families</a>', visible: false });
+                infobox54.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin54, 'click', function () {
+                    infobox54.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin54);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox54.setOptions({ visible: false });
+                });
+                //SafeHouse Denver
+                var center55 = new Microsoft.Maps.Location(39.739236, -104.990251);
+                var pushpin55 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.739236, -104.990251));
+                var infobox55 = new Microsoft.Maps.Infobox(center55, { title: 'SafeHouse Denver',
+                    description: 'Denver, CO. Colorado Collaborative <br/> <a href="https://safehouse-denver.org/" target="_blank">Safe House Denver</a>', visible: false });
+                infobox55.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin55, 'click', function () {
+                    infobox55.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin55);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox55.setOptions({ visible: false });
+                });
+                //Grayson Crisis Center
+                var center56 = new Microsoft.Maps.Location(33.6357, -96.6089);
+                var pushpin56 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.6357, -96.6089));
+                var infobox56 = new Microsoft.Maps.Infobox(center56, { title: 'Grayson Crisis Center',
+                    description: 'Sherman, TX. Texas Collaborative <br/> <a href="http://www.graysoncrisiscenter.org/" target="_blank">Grayson Crisis Center</a>', visible: false });
+                infobox56.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin56, 'click', function () {
+                    infobox56.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin56);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox56.setOptions({ visible: false });
+                });
+                //ACCESS (Assault Care Center Extending Shelter and Support)
+                var center57 = new Microsoft.Maps.Location(42.030781, -93.631913);
+                var pushpin57 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(42.030781, -93.631913));
+                var infobox57 = new Microsoft.Maps.Infobox(center57, { title: 'ACCESS (Assault Care Center Extending Shelter and Support)',
+                    description: 'Ames, IA. SafeNight App <br/> <a href="https://www.assaultcarecenter.org/" target="_blank">ACCESS (Assault Care Extending Shelter and Support)</a>', visible: false });
+                infobox57.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin57, 'click', function () {
+                    infobox57.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin57);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox57.setOptions({ visible: false });
+                });
+                //Alameda County District Attorney Office Victim/Witness Division
+                var center58 = new Microsoft.Maps.Location(37.801261, -122.262975);
+                var pushpin58 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.801261, -122.262975));
+                var infobox58 = new Microsoft.Maps.Infobox(center58, { title: 'Alameda County District Attorney Office Victim/Witness Division',
+                    description: 'Oakland, CA. Northern California Collaborative <br/> <a href="http://www.alcoda.org/victim_witness/" target="_blank">Alameda County District Attorney Office Victim/Witness Division</a>', visible: false });
+                infobox58.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin58, 'click', function () {
+                    infobox58.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin58);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox58.setOptions({ visible: false });
+                });
+                //Alternatives to Dometic Violence
+                var center59 = new Microsoft.Maps.Location(33.953349, -117.396156);
+                var pushpin59 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.953349, -117.396156));
+                var infobox59 = new Microsoft.Maps.Infobox(center59, { title: 'Alternatives to Domestic Violence',
+                    description: 'Riverside, CA. SafeNight App <br/> <a href="http://alternativestodv.org/" target="_blank">Alternatives to Domestic Violence</a>', visible: false });
+                infobox59.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin59, 'click', function () {
+                    infobox59.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin59);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox59.setOptions({ visible: false });
+                });
+                //Alternatives to Violence
+                var center60 = new Microsoft.Maps.Location(33.953349, -117.396156);
+                var pushpin60 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(33.953349, -117.396156));
+                var infobox60 = new Microsoft.Maps.Infobox(center60, { title: 'Alternatives to Violence',
+                    description: 'Redbluff, CA. SafeNight App <br/> <a href="http://www.atvrb.org/" target="_blank">Alternatives to Violence</a>', visible: false });
+                infobox60.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin60, 'click', function () {
+                    infobox60.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin60);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox60.setOptions({ visible: false });
+                });
+                //Arab Cultural Center
+                var center61 = new Microsoft.Maps.Location(37.774929, -122.419416);
+                var pushpin61 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.774929, -122.419416));
+                var infobox61 = new Microsoft.Maps.Infobox(center61, { title: 'Arab Cultural Center',
+                    description: 'San Francisco, CA. SafeNight App <br/> <a href="http://www.arabculturalcenter.org/" target="_blank">Arab Cultural Center</a>', visible: false });
+                infobox61.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin61, 'click', function () {
+                    infobox61.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin61);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox61.setOptions({ visible: false });
+                });
+                //Bay Area Women Against Rape (BAWAR)
+                var center62 = new Microsoft.Maps.Location(37.816473, -122.266585);
+                var pushpin62 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.816473, -122.266585));
+                var infobox62 = new Microsoft.Maps.Infobox(center62, { title: 'Bay Area Women Against Rape (BAWAR)',
+                    description: 'Oakland, CA. Northern California Collaborative <br/> <a href="https://www.bawar.org/" target="_blank">Bay Area Women Against Rape</a>', visible: false });
+                infobox62.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin62, 'click', function () {
+                    infobox62.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin62);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox62.setOptions({ visible: false });
+                });
+                //CASH (Community Against Sexual Harm)
+                var center63 = new Microsoft.Maps.Location(38.555252, -121.472532);
+                var pushpin63 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.555252, -121.472532));
+                var infobox63 = new Microsoft.Maps.Infobox(center63, { title: 'CASH (Community Against Sexual Harm)',
+                    description: 'Sacramento, CA. Northern California Collaborative <br/> <a href="http://www.cashsac.org/" target="_blank">CASH (Community Against Sexual Harm)</a>', visible: false });
+                infobox63.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin63, 'click', function () {
+                    infobox63.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin63);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox63.setOptions({ visible: false });
+                });
+                //Catalyst Domestic Violence Services
+                var center64 = new Microsoft.Maps.Location(39.728494, -121.837478);
+                var pushpin64 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.728494, -121.837478));
+                var infobox64 = new Microsoft.Maps.Infobox(center64, { title: 'Catalyst Domestic Violence Services',
+                    description: 'Chico, CA. SafeNight App <br/> <a href="http://www.catalystdvservices.org/" target="_blank">Catalyst Domestic Violence Services</a>', visible: false });
+                infobox64.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin64, 'click', function () {
+                    infobox64.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin64);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox64.setOptions({ visible: false });
+                });
+                //CHETNA
+                var center65 = new Microsoft.Maps.Location(32.948333, -96.729852);
+                var pushpin65 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.948333, -96.729852));
+                var infobox65 = new Microsoft.Maps.Infobox(center65, { title: 'CHETNA',
+                    description: 'Richardson, TX. Texas Collaborative <br/> <a href="http://www.chetna-dfw.org/" target="_blank">CHETNA</a>', visible: false });
+                infobox65.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin65, 'click', function () {
+                    infobox65.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin65);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox65.setOptions({ visible: false });
+                });
+                //Children's Institute, Inc.
+                var center66 = new Microsoft.Maps.Location(34.052234, -118.243685);
+                var pushpin66 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.052234, -118.243685));
+                var infobox66 = new Microsoft.Maps.Infobox(center66, { title: 'Chidren\'s Institute, Inc.',
+                    description: 'Los Angeles, CA. SafeNight App <br/> <a href="http://www.childrensinstitute.org/" target="_blank">Children\'s Institute, Inc.</a>', visible: false });
+                infobox66.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin65, 'click', function () {
+                    infobox66.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin66);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox66.setOptions({ visible: false });
+                });
+                //Coalition to Abolish Slavery and Trafficking (CAST)
+                var center67 = new Microsoft.Maps.Location(34.066482, -118.352039);
+                var pushpin67 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.066482, -118.352039));
+                var infobox67 = new Microsoft.Maps.Infobox(center67, { title: 'Coalition to Abolish Slavery and Trafficking (CAST)',
+                    description: 'Los Angeles, CA. SafeNight App <br/> <a href="http://www.castla.org/home" target="_blank">Coalition to Abolish Slavery and Trafficking (CAST)</a>', visible: false });
+                infobox67.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin67, 'click', function () {
+                    infobox67.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin67);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox67.setOptions({ visible: false });
+                });
+                //Community Coalition Against Human Trafficking/Glow Free TN
+                var center68 = new Microsoft.Maps.Location(35.9606, -83.9207);
+                var pushpin68 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.9606, -83.9207));
+                var infobox68 = new Microsoft.Maps.Infobox(center68, { title: 'Community Coalition Against Human Trafficking/Glow Free TN',
+                    description: 'Knoxville, TN. SafeNight App <br/> <a href="https://growfreetn.org/" target="_blank">Community Coalition Against Human Trafficking/Glow Free TN</a>', visible: false });
+                infobox68.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin68, 'click', function () {
+                    infobox68.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin68);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox68.setOptions({ visible: false });
+                });
+                //Community Violence Solutions
+                var center69 = new Microsoft.Maps.Location(37.960005, -122.343402);
+                var pushpin69 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.960005, -122.343402));
+                var infobox69 = new Microsoft.Maps.Infobox(center69, { title: 'Community Violence Solutions',
+                    description: 'San Pablo, CA. Northern California Collaborative <br/> <a href="http://www.cvsolutions.org/" target="_blank">Community Violence Solutions</a>', visible: false });
+                infobox69.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin69, 'click', function () {
+                    infobox69.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin69);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox69.setOptions({ visible: false });
+                });
+                //Contra Costa Family Justice Alliance
+                var center70 = new Microsoft.Maps.Location(37.977869, -122.034277);
+                var pushpin70 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.977869, -122.034277));
+                var infobox70 = new Microsoft.Maps.Infobox(center70, { title: 'Contra Costa Family Justice Alliance',
+                    description: 'Richmond, CA. Northern California Collaborative <br/> <a href="http://www.cocofamilyjustice.org/" target="_blank">Contra Costa Family Justice Alliance</a>', visible: false });
+                infobox70.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin70, 'click', function () {
+                    infobox70.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin70);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox70.setOptions({ visible: false });
+                });
+                //Crisis Center of Comal County
+                var center71 = new Microsoft.Maps.Location(29.703002, -98.124453);
+                var pushpin71 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(29.703002, -98.124453));
+                var infobox71 = new Microsoft.Maps.Infobox(center71, { title: 'Crisis Center of Comal County',
+                    description: 'New Braunfels, TX. SafeNight App <br/> <a href="http://www.ccccnbtx.org/" target="_blank">Crisis Center of Comal Conty</a>', visible: false });
+                infobox71.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin71, 'click', function () {
+                    infobox71.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin71);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox71.setOptions({ visible: false });
+                });
+                //Crisis Intervention Service
+                var center72 = new Microsoft.Maps.Location(43.153573, -93.201037);
+                var pushpin72 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(43.153573, -93.201037));
+                var infobox72 = new Microsoft.Maps.Infobox(center72, { title: 'Crisis Intervention Service',
+                    description: 'Mason City, IA. SafeNight App <br/> <a href="http://www.cishelps.org/" target="_blank">Crisis Intervention Service</a>', visible: false });
+                infobox72.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin72, 'click', function () {
+                    infobox72.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin72);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox72.setOptions({ visible: false });
+                });
+                //Domestic Safety Resource Center
+                var center73 = new Microsoft.Maps.Location(38.087231, -102.62075);
+                var pushpin73 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.087231, -102.62075));
+                var infobox73 = new Microsoft.Maps.Infobox(center73, { title: 'Crisis Intervention Service',
+                    description: 'Lamar, CO. Colorado Collaborative <br/> <a href="http://www.cishelps.org/" target="_blank">Crisis Intervention Service</a>', visible: false });
+                infobox73.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin73, 'click', function () {
+                    infobox73.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin73);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox73.setOptions({ visible: false });
+                });
+                //DOVES of Big Bear Valley, Inc.
+                var center74 = new Microsoft.Maps.Location(34.243896, -116.911422);
+                var pushpin74 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.243896, -116.911422));
+                var infobox74 = new Microsoft.Maps.Infobox(center74, { title: 'DOVES of Big Bear Valley',
+                    description: 'Big Bear Lake, CA. Northern California Collaborative <br/> <a href="http://www.doves4help.org/" target="_blank">DOVES of Big Bear Valley</a>', visible: false });
+                infobox74.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin74, 'click', function () {
+                    infobox74.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin74);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox74.setOptions({ visible: false });
+                });
+                //Family Support Services of Amarillo, Inc.
+                var center75 = new Microsoft.Maps.Location(35.221997, -101.831297);
+                var pushpin75 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.221997, -101.831297));
+                var infobox75 = new Microsoft.Maps.Infobox(center75, { title: 'Family Support Services of Amarillo, Inc.',
+                    description: 'Amarillo, TX. SafeNight App <br/> <a href="http://www.fss-ama.org/" target="_blank">Family Support Services of Amarillo, Inc.</a>', visible: false });
+                infobox75.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin75, 'click', function () {
+                    infobox75.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin75);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox75.setOptions({ visible: false });
+                });
+                //Family Violence Law Center
+                var center76 = new Microsoft.Maps.Location(37.804364, -122.271114);
+                var pushpin76 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.804364, -122.271114));
+                var infobox76 = new Microsoft.Maps.Infobox(center76, { title: 'Family Violence Law Center',
+                    description: 'Oakland, CA. SafeNight App <br/> <a href="http://fvlc.org/" target="_blank">Family Violence Law Center</a>', visible: false });
+                infobox76.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin76, 'click', function () {
+                    infobox76.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin76);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox76.setOptions({ visible: false });
+                });
+                //Garden of Hope
+                var center77 = new Microsoft.Maps.Location(40.767499, -73.833079);
+                var pushpin77 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.767499, -73.833079));
+                var infobox77 = new Microsoft.Maps.Infobox(center77, { title: 'Garden of Hope',
+                    description: 'Flushing, NY. SafeNight App <br/> <a href="http://www.gohny.org/" target="_blank">Garden of Hope</a>', visible: false });
+                infobox77.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin77, 'click', function () {
+                    infobox77.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin77);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox77.setOptions({ visible: false });
+                });
+                //Glory House of Miami
+                var center78 = new Microsoft.Maps.Location(25.761680, -80.19179);
+                var pushpin78 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(25.761680, -80.19179));
+                var infobox78 = new Microsoft.Maps.Infobox(center78, { title: 'Glory House of Miami',
+                    description: 'Miami, FL. SafeNight App <br/> <a href="http://www.gloryhouseofmiami.org/" target="_blank">Glory House of Miami</a>', visible: false });
+                infobox78.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin78, 'click', function () {
+                    infobox78.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin78);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox78.setOptions({ visible: false });
+                });
+                //Haven Women's Center of Stanislaus
+                var center79 = new Microsoft.Maps.Location(37.639097, -120.996878);
+                var pushpin79 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.639097, -120.996878));
+                var infobox79 = new Microsoft.Maps.Infobox(center79, { title: 'Haven Women\'s Center of Stanislaus',
+                    description: 'Modesto, CA. SafeNight App <br/> <a href="https://www.havenwcs.org/" target="_blank">Haven Women\'s Center of Stanislaus</a>', visible: false });
+                infobox79.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin79, 'click', function () {
+                    infobox79.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin79);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox79.setOptions({ visible: false });
+                });
+                //HelpMate
+                var center80 = new Microsoft.Maps.Location(35.595058, -82.551487);
+                var pushpin80 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.595058, -82.551487));
+                var infobox80 = new Microsoft.Maps.Infobox(center80, { title: 'HelpMate',
+                    description: 'Ashville, NC. SafeNight App <br/> <a href="http://helpmateonline.org/" target="_blank">HelpMate</a>', visible: false });
+                infobox80.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin80, 'click', function () {
+                    infobox80.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin80);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox80.setOptions({ visible: false });
+                });
+                //Community Advocates for Family & Youth
+                var center81 = new Microsoft.Maps.Location(38.7849, -76.8721);
+                var pushpin81 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.7849, -76.8721));
+                var infobox81 = new Microsoft.Maps.Infobox(center81, { title: 'Community Advocates for Family & Youth',
+                    description: 'Capitol Heights, MD. SafeNight App <br/> <a href="http://www.cafyonline.org/" target="_blank">Community Advocates for Family & Youth</a>', visible: false });
+                infobox81.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin81, 'click', function () {
+                    infobox81.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin81);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox81.setOptions({ visible: false });
+                });
+                //Kene Me-Wu Native American DV/SA Program
+                var center82 = new Microsoft.Maps.Location(37.958512, -120.424812);
+                var pushpin82 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.958512, -120.424812));
+                var infobox82 = new Microsoft.Maps.Infobox(center82, { title: 'Kene Me-Wu Native American DV/SA Program',
+                    description: 'Sonora, CA. Northern California Collaborative <br/> <a href="https://sites.google.com/site/kenemewunonprofit/" target="_blank">Kene Me-Wu Native American DV/SA Program</a>', visible: false });
+                infobox82.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin82, 'click', function () {
+                    infobox82.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin82);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox82.setOptions({ visible: false });
+                });
+                //KIRAN, Inc.
+                var center83 = new Microsoft.Maps.Location(35.779590, -78.638179);
+                var pushpin83 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(35.779590, -78.638179));
+                var infobox83 = new Microsoft.Maps.Infobox(center83, { title: 'KIRAN, Inc.',
+                    description: 'Raleigh, NC. SafeNight App <br/> <a href="https://www.kiraninc.org/" target="_blank">KIRAN, Inc.</a>', visible: false });
+                infobox83.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin83, 'click', function () {
+                    infobox83.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin83);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox83.setOptions({ visible: false });
+                });
+                //Lassen Family Services
+                var center84 = new Microsoft.Maps.Location(40.416284, -120.653006);
+                var pushpin84 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.416284, -120.653006));
+                var infobox84 = new Microsoft.Maps.Infobox(center84, { title: 'Lassen Family Services',
+                    description: 'Susanville, CA. SafeNight App <br/> <a href="http://lassenfamilyservices.org/" target="_blank">Lassen Family Services</a>', visible: false });
+                infobox84.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin84, 'click', function () {
+                    infobox84.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin84);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox84.setOptions({ visible: false });
+                });
+                //Live Violence Free
+                var center85 = new Microsoft.Maps.Location(38.939926, -119.977187);
+                var pushpin85 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.939926, -119.977187));
+                var infobox85 = new Microsoft.Maps.Infobox(center85, { title: 'Live Violence Free',
+                    description: 'South Lake Tahoe, CA. SafeNight App <br/> <a href="https://liveviolencefree.org/" target="_blank">Live Violence Free</a>', visible: false });
+                infobox85.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin85, 'click', function () {
+                    infobox85.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin85);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox85.setOptions({ visible: false });
+                });
+                //MISSSEY
+                var center86 = new Microsoft.Maps.Location(37.803562, -122.268906);
+                var pushpin86 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.803562, -122.268906));
+                var infobox86 = new Microsoft.Maps.Infobox(center86, { title: 'MISSSEY',
+                    description: 'Oakland, CA. Northern California Collaborative <br/> <a href="http://misssey.org/" target="_blank">MISSSEY</a>', visible: false });
+                infobox86.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin86, 'click', function () {
+                    infobox86.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin86);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox86.setOptions({ visible: false });
+                });
+                //Monterey County Rape Crisis Center
+                var center87 = new Microsoft.Maps.Location(36.676268, -121.659372);
+                var pushpin87 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(36.676268, -121.659372));
+                var infobox87 = new Microsoft.Maps.Infobox(center87, { title: 'Monterey County Rape Crisis Center',
+                    description: 'Salinas, CA. Northern California Collaborative <br/> <a href="http://www.mtryrapecrisis.org/" target="_blank">Monterey County Rape Crisis Center</a>', visible: false });
+                infobox87.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin87, 'click', function () {
+                    infobox87.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin87);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox87.setOptions({ visible: false });
+                });
+                //New York City Gay and Lesbian Anti-Violence Project
+                var center88 = new Microsoft.Maps.Location(40.712784, -74.005941);
+                var pushpin88 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.712784, -74.005941));
+                var infobox88 = new Microsoft.Maps.Infobox(center88, { title: 'New York City Gay and Lesbian Anti-Violence Project',
+                    description: 'New York, NY. SafeNight App <br/> <a href="https://avp.org/" target="_blank">New York City Gay and Lesbian Anti-Violence Project</a>', visible: false });
+                infobox88.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin88, 'click', function () {
+                    infobox88.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin88);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox88.setOptions({ visible: false });
+                });
+                //NJCEDV
+                var center89 = new Microsoft.Maps.Location(40.217053, -74.742938);
+                var pushpin89 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.217053, -74.742938));
+                var infobox89 = new Microsoft.Maps.Infobox(center89, { title: 'NJCEDV',
+                    description: 'Trenton, NJ. New Jersey Collaborative <br/> <a href="http://www.njcedv.org/" target="_blank">NJCEDV</a>', visible: false });
+                infobox89.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin89, 'click', function () {
+                    infobox89.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin89);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox89.setOptions({ visible: false });
+                });
+                //NorCal Service for Deaf and Hard of Hearing
+                var center90 = new Microsoft.Maps.Location(37.998996, -121.326312);
+                var pushpin90 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.998996, -121.326312));
+                var infobox90 = new Microsoft.Maps.Infobox(center90, { title: 'NorCal Services for Deaf and Hard of Hearing',
+                    description: 'North Highlands, CA. Northern California Collaborative <br/> <a href="http://www.norcalcenter.org/" target="_blank">NorCal Services for Deaf and Hard of Hearing</a>', visible: false });
+                infobox90.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin90, 'click', function () {
+                    infobox90.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin90);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox90.setOptions({ visible: false });
+                });
+                //Opening Doors
+                var center91 = new Microsoft.Maps.Location(38.586358, -121.415965);
+                var pushpin91 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.586358, -121.415965));
+                var infobox91 = new Microsoft.Maps.Infobox(center91, { title: 'Opening Doors',
+                    description: 'Sacramento, CA. Northern California Collaborative <br/> <a href="http://www.openingdoorsinc.org/" target="_blank">Opening Doors</a>', visible: false });
+                infobox91.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin91, 'click', function () {
+                    infobox91.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin91);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox91.setOptions({ visible: false });
+                });
+                //Project Sanctuary
+                var center92 = new Microsoft.Maps.Location(39.150171, -123.207783);
+                var pushpin92 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.150171, -123.207783));
+                var infobox92 = new Microsoft.Maps.Infobox(center92, { title: 'Project Sanctuary',
+                    description: 'Ukiah, CA. SafeNight App <br/> <a href="http://www.projectsanctuary.org/" target="_blank">Project Sanctuary</a>', visible: false });
+                infobox92.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin92, 'click', function () {
+                    infobox92.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin92);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox92.setOptions({ visible: false });
+                });
+                //Renew Life Center
+                var center93 = new Microsoft.Maps.Location(40.916765, -74.171811);
+                var pushpin93 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.916765, -74.171811));
+                var infobox93 = new Microsoft.Maps.Infobox(center93, { title: 'Renew Life Center',
+                    description: 'Paterson, NJ. New Jersey Collaborative <br/> <a href="http://renewlifecenternj.org/" target="_blank">Renew Life Center</a>', visible: false });
+                infobox93.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin93, 'click', function () {
+                    infobox93.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin93);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox93.setOptions({ visible: false });
+                });
+                //Restore NYC
+                var center94 = new Microsoft.Maps.Location(40.741333, -73.903649);
+                var pushpin94 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.741333, -73.903649));
+                var infobox94 = new Microsoft.Maps.Infobox(center94, { title: 'Restore NYC',
+                    description: 'New York, NY. SafeNight App <br/> <a href="http://restorenyc.org/" target="_blank">Restory NYC</a>', visible: false });
+                infobox94.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin94, 'click', function () {
+                    infobox94.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin94);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox94.setOptions({ visible: false });
+                });
+                //Sacramento County District Attorney's Office
+                var center95 = new Microsoft.Maps.Location(38.58418, -121.493031);
+                var pushpin95 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(38.58418, -121.493031));
+                var infobox95 = new Microsoft.Maps.Infobox(center95, { title: 'Sacramento County District Attorney\'s Office',
+                    description: 'Sacramento, CA. Northern California Collaborative <br/> <a href="http://www.sacda.org/" target="_blank">Sacramento County District Attorney\'s Office</a>', visible: false });
+                infobox95.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin95, 'click', function () {
+                    infobox95.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin95);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox95.setOptions({ visible: false });
+                });
+                //Sanar Wellness Institute
+                var center96 = new Microsoft.Maps.Location(40.735657, -74.172367);
+                var pushpin96 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.735657, -74.172367));
+                var infobox96 = new Microsoft.Maps.Infobox(center96, { title: 'Sanar Wellness Institute',
+                    description: 'Newark, NJ. New Jersey Collaborative <br/> <a href="http://www.sanar-institute.org/" target="_blank">Sanar Wellness Institute</a>', visible: false });
+                infobox96.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin96, 'click', function () {
+                    infobox96.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin96);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox96.setOptions({ visible: false });
+                });
+                //STAND! For Families Free of Violence
+                var center97 = new Microsoft.Maps.Location(37.977978, -122.031073);
+                var pushpin97 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.977978, -122.031073));
+                var infobox97 = new Microsoft.Maps.Infobox(center97, { title: 'STAND! For Families Free of Violence',
+                    description: 'Concord, CA. SafeNight App <br/> <a href="http://www.standffov.org/" target="_blank">STAND! For Families Free of Violence</a>', visible: false });
+                infobox97.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin97, 'click', function () {
+                    infobox97.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin97);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox97.setOptions({ visible: false });
+                });
+                //The Life of Freedom Center
+                var center98 = new Microsoft.Maps.Location(25.790654, -80.130045);
+                var pushpin98 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(25.790654, -80.130045));
+                var infobox98 = new Microsoft.Maps.Infobox(center98, { title: 'The Life of Freedom Center',
+                    description: 'Miami Beach, FL. SafeNight App <br/> <a href="https://www.lofcenter.org/" target="_blank">The Life of Freedom Center</a>', visible: false });
+                infobox98.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin98, 'click', function () {
+                    infobox98.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin98);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox98.setOptions({ visible: false });
+                });
+                //The Second Step
+                var center99 = new Microsoft.Maps.Location(42.346777, -71.207232);
+                var pushpin99 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(42.346777, -71.207232));
+                var infobox99 = new Microsoft.Maps.Infobox(center99, { title: 'The Second Step',
+                    description: 'Newtonville, MA. SafeNight App <br/> <a href="https://thesecondstep.org/" target="_blank">The Second Step</a>', visible: false });
+                infobox99.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin99, 'click', function () {
+                    infobox99.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin99);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox99.setOptions({ visible: false });
+                });
+                //WestCoast Children's Clinic
+                var center100 = new Microsoft.Maps.Location(37.775808, -122.224782);
+                var pushpin100 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.775808, -122.224782));
+                var infobox100 = new Microsoft.Maps.Infobox(center100, { title: 'WestCoast Children\'s Clinic',
+                    description: 'Oakland, CA. Northern California Collaborative <br/> <a href="http://www.westcoastcc.org/who-we-are/" target="_blank">WestCoast Children\'s Clinic</a>', visible: false });
+                infobox100.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin100, 'click', function () {
+                    infobox100.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin100);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox100.setOptions({ visible: false });
+                });
+                //Wild Iris Crisis Center
+                var center101 = new Microsoft.Maps.Location(37.648546, -118.972079);
+                var pushpin101 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.648546, -118.972079));
+                var infobox101 = new Microsoft.Maps.Infobox(center101, { title: 'Wild Iris Crisis Center',
+                    description: 'Mammoth Lake, CA. SafeNight App <br/> <a href="http://wild-iris.org/" target="_blank">Wild Iris Crisis Center</a>', visible: false });
+                infobox101.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin101, 'click', function () {
+                    infobox101.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin101);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox101.setOptions({ visible: false });
+                });
+                //WISE & Healthy Aging
+                var center102 = new Microsoft.Maps.Location(34.019454, -118.491191);
+                var pushpin102 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(34.019454, -118.491191));
+                var infobox102 = new Microsoft.Maps.Infobox(center102, { title: 'WISE & Healthy Aging',
+                    description: 'Santa Monica, CA. SafeNight App <br/> <a href="http://www.wiseandhealthyaging.org/" target="_blank">Wise & Healthy Aging</a>', visible: false });
+                infobox102.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin102, 'click', function () {
+                    infobox102.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin102);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox102.setOptions({ visible: false });
+                });
+                //Women Called Moses Coalition and Outreach Inc
+                var center103 = new Microsoft.Maps.Location(32.651800, -96.908337);
+                var pushpin103 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(32.651800, -96.908337));
+                var infobox103 = new Microsoft.Maps.Infobox(center103, { title: 'Women Called Moses Coalition and Outreach, Inc.',
+                    description: 'Duncanville, TX. Texas Collaborative <br/> <a href="https://www.womencalledmoses.org/" target="_blank">Women Called Moses Coalition and Outreach, Inc.</a>', visible: false });
+                infobox103.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin103, 'click', function () {
+                    infobox103.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin103);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox103.setOptions({ visible: false });
+                });
+                //Advocates of Lake County
+                var center104 = new Microsoft.Maps.Location(39.2508, -106.2925);
+                var pushpin104 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.2508, -106.2925));
+                var infobox104 = new Microsoft.Maps.Infobox(center104, { title: 'Advocates of Lake County',
+                    description: 'Leadville, CO. Colorado Collaborative <br/> <a href="http://advocatesoflakecounty.org/" target="_blank">Advocates of Lake County</a>', visible: false });
+                infobox104.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin104, 'click', function () {
+                    infobox104.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin104);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox104.setOptions({ visible: false });
+                });
+                //Deaf Overcoming Violence through Empowerment
+                var center105 = new Microsoft.Maps.Location(39.7312, -104.9827);
+                var pushpin105 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.7312, -104.9827));
+                var infobox105 = new Microsoft.Maps.Infobox(center105, { title: 'Deaf Overcoming Violence through Empowerment',
+                    description: 'Denver, CO. Colorado Collaborative <br/> <a href="https://deafdove.org/" target="_blank">Deaf Overcoming Violence through Empowerment</a>', visible: false });
+                infobox105.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin105, 'click', function () {
+                    infobox105.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin105);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox105.setOptions({ visible: false });
+                });
+                //Young Women's Freedom Center
+                var center106 = new Microsoft.Maps.Location(37.773972, -122.431297);
+                var pushpin106 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(37.773972, -122.431297));
+                var infobox106 = new Microsoft.Maps.Infobox(center106, { title: 'Young Women\'s Freedom Center',
+                    description: 'San Francisco, CA. Northern California Collaborative <br/> <a href="http://www.youngwomenfree.org/" target="_blank">Young Women\'s Freedom Center</a>', visible: false });
+                infobox106.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin106, 'click', function () {
+                    infobox106.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin106);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox106.setOptions({ visible: false });
+                });
+                //The Gathering Place
+                var center107 = new Microsoft.Maps.Location(39.7327, -104.9710);
+                var pushpin107 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(39.7327, -104.9710));
+                var infobox107 = new Microsoft.Maps.Infobox(center107, { title: 'The Gathering Place',
+                    description: 'Denver, CO. Colorado Collaborative <br/> <a href="https://tgpdenver.org/" target="_blank">The Gathering Place</a>', visible: false });
+                infobox107.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin107, 'click', function () {
+                    infobox107.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin107);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox107.setOptions({ visible: false });
+                });
+                //MercyHouse
+                var center108 = new Microsoft.Maps.Location(29.7753, -95.3103);
+                var pushpin108 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(29.7753, -95.3103));
+                var infobox108 = new Microsoft.Maps.Infobox(center108, { title: 'MercyHouse Organization',
+                    description: 'Houston, TX. Texas Collaborative <br/> <a href="https://www.mercyhousesite.org/" target="_blank">MercyHouse Organization</a>', visible: false });
+                infobox108.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin108, 'click', function () {
+                    infobox108.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin108);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox108.setOptions({ visible: false });
+                });
+                //Passaic County Women’s Center
+                var center109 = new Microsoft.Maps.Location(40.9169, -74.1719);
+                var pushpin109 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.9169, -74.1719));
+                var infobox109 = new Microsoft.Maps.Infobox(center109, { title: 'Passaic County Women\’s Center ',
+                    description: 'Paterson, NJ. New Jersey Collaborative <br/> <a href="http://www.passaiccountywomenscenter.org/" target="_blank">Passaic County Women\’s Center </a>', visible: false });
+                infobox109.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin109, 'click', function () {
+                    infobox109.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin109);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox109.setOptions({ visible: false });
+                });
+                //Catholic Charities Archdocese of Denver
+                var center110 = new Microsoft.Maps.Location(40.4233, -104.7091);
+                var pushpin110 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.4233, -104.7091));
+                var infobox110 = new Microsoft.Maps.Infobox(center110, { title: 'Catholic Charities Archdocese of Denver',
+                    description: 'Greeley, CO. Colorado Collaborative <br/> <a href="https://ccdenver.org/" target="_blank">Catholic Charities Archdocese of Denver</a>', visible: false });
+                infobox110.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin110, 'click', function () {
+                    infobox110.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin110);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox110.setOptions({ visible: false });
+                });
+                //Ark of Freedom Alliance
+                var center111 = new Microsoft.Maps.Location(26.1224, -80.1373);
+                var pushpin111 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(26.1224, -80.1373));
+                var infobox111 = new Microsoft.Maps.Infobox(center111, { title: 'Ark of Freedom Alliance',
+                    description: 'Fort Lauderdale, FL. SafeNight only <br/> <a href="http://www.aofalliance.org/" target="_blank">Ark of Freedom Alliance</a>', visible: false });
+                infobox111.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin111, 'click', function () {
+                    infobox111.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin111);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox111.setOptions({ visible: false });
+                });
+                //YWCA Union County
+                var center112 = new Microsoft.Maps.Location(40.6640, -74.2107);
+                var pushpin112 = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(40.6640, -74.2107));
+                var infobox112 = new Microsoft.Maps.Infobox(center112, { title: 'YWCA Union County',
+                    description: 'Elizabeth, NJ. New Jersey Collaborative <br/> <a href="http://www.ywcaunioncounty.org/" target="_blank">YWCA Union County</a>', visible: false });
+                infobox112.setMap(map);
+                Microsoft.Maps.Events.addHandler(pushpin112, 'click', function () {
+                    infobox112.setOptions({ visible: true });
+                });
+                map.entities.push(pushpin112);
+                Microsoft.Maps.Events.addHandler(map, 'click', function () {
+                    infobox112.setOptions({ visible: false });
+                });
+            }
+        </script>
+        <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?callback=loadMapScenario' async defer></script>
+    </body>
+</html>
