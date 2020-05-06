@@ -876,4 +876,64 @@ var mapdata = [
         "long": -86.7816,
         "description": 'Nashville, TN.  <br/> <a href="https://www.maryparrish.org" target="_blank">The Mary Parrish Center</a>'
     },
+    {
+        "agencyname": 'Covered',
+        "lat": 39.729431,
+        "long": -104.831917,
+        "description": 'Aurora, CO.  <br/> <a href="https://coveredcolorado.org" target="_blank">Covered</a>'
+    },
+    {
+        "agencyname": 'Safer Path Family Violence Shelter',
+        "lat": 28.964411,
+        "long": -98.493942,
+        "description": 'Pleasanton, TX.  <br/> <a href="https://www.saferpathfvs.org" target="_blank">Safer Path Family Violence Shelter</a>'
+    },
+    {
+        "agencyname": 'YWCA Monterey County',
+        "lat": 36.674850,
+        "long": -121.655170,
+        "description": 'Salinas, CA.  <br/> <a href="https://www.ywcamc.org" target="_blank">YWCA Monterey County</a>'
+    },
+    {
+        "agencyname": 'The Alliance',
+        "lat": 38.531862,
+        "long": -105.996303,
+        "description": 'Salida, CO.  <br/> <a href="https://alliancechaffee.org" target="_blank">The Alliance</a>'
+    },
+    {
+        "agencyname": 'Kent Youth & Famliy Services',
+        "lat": 47.403963,
+        "long": -122.242725,
+        "description": 'Kent, WA.  <br/> <a href="http://kyfs.org" target="_blank">Kent Youth & Famliy Services</a>'
+    },
+    {
+        "agencyname": 'US Committee for Refugees and Immagrants',
+        "lat": 41.600285,
+        "long": -93.633111,
+        "description": 'Des Moines, IA.  <br/> <a href="https://refugees.org" target="_blank">US Committee for Refugees and Immagrants</a>'
+    },
+    {
+        "agencyname": 'Women are Safe, Inc.',
+        "lat": 35.832740,
+        "long": -87.442211,
+        "description": 'Centerville, TN.  <br/> <a href="https://www.womenaresafe.org" target="_blank">Women are Safe, Inc.</a>'
+    },
+    {
+        "agencyname": 'Domestic Violence Program',
+        "lat": 35.815124,
+        "long": -86.369142,
+        "description": 'Murfreesboro, TN.  <br/> <a href="https://dvpshelter.org" target="_blank">Domestic Violence Program</a>'
+    },
+    {
+        "agencyname": 'WRAP',
+        "lat": 35.632786,
+        "long": -88.826701,
+        "description": 'Jackson, TN.  <br/> <a href="https://www.wraptn.org" target="_blank">WRAP</a>'
+    },
+    {
+        "agencyname": 'Clinton County Women\'s Center d/b/a Roads to Peace',
+        "lat": 41.137523,
+        "long": -77.448349,
+        "description": 'Lock Haven, PA.  <br/> <a href="http://www.ccwcsafe.org" target="_blank">Clinton County Women\'s Center d/b/a Roads to Peace</a>'
+    },
 ]
