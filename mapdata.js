@@ -936,4 +936,154 @@ var mapdata = [
         "long": -77.448349,
         "description": 'Lock Haven, PA.  <br/> <a href="http://www.ccwcsafe.org" target="_blank">Clinton County Women\'s Center d/b/a Roads to Peace</a>'
     },
+    {
+        "agencyname": 'Renew Inc.',
+        "lat": 37.348621,
+        "long": -108.583778,
+        "description": 'Cortez, Co.  <br/> <a href="www.renew-inc.org" target="_blank">Renew Inc.</a>'
+    },
+    {
+        "agencyname": 'Change is Possible',
+        "lat": 36.147511,
+        "long": -82.414001,
+        "description": 'Erwin, TN.  <br/> <a href="http://www.chipsfvs.org" target="_blank">Change is Possible</a>'
+    },
+    {
+        "agencyname": 'The Women\'s Advocacy Center',
+        "lat": 35.045570,
+        "long": -89.668633,
+        "description": 'Collierville, TN.  <br/> <a href="https://www.womensadvocacycenter.org" target="_blank">The Women\'s Advocacy Center</a>'
+    },
+    {
+        "agencyname": 'Advocating Opportunity',
+        "lat": 41.652805,
+        "long": -83.537865,
+        "description": 'Toledo, OH.  <br/> <a href="http://www.advocatingopportunity.com" target="_blank">Advocating Opportunity</a>'
+    },
+    {
+        "agencyname": 'Advocating Opportunity',
+        "lat": 36.162664,
+        "long": -86.781602,
+        "description": 'Nashville, TN.  <br/> <a href="http://www.advocatingopportunity.com" target="_blank">Advocating Opportunity</a>'
+    },
+    {
+        "agencyname": 'Bilateral Safety Corridor Coalition',
+        "lat": 32.678109,
+        "long": -117.099197,
+        "description": 'National City, CA.  <br/> <a href="http://www.bsccoalition.org" target="_blank">Bilateral Safety Corridor Coalition</a>'
+    },
+    {
+        "agencyname": 'Set Free Monterey Bay',
+        "lat": 36.555239,
+        "long": -121.923288,
+        "description": 'Carmel, CA.  <br/> <a href="https://www.setfreemontereybay.org" target="_blank">Set Free Monterey Bay</a>'
+    },
+    {
+        "agencyname": 'The Formation Project',
+        "lat": 32.776475,
+        "long": -79.931051,
+        "description": 'Charleston, NC.  <br/> <a href="theformationproject.org" target="_blank">The Formation Project</a>'
+    },
+    {
+        "agencyname": 'Alabaster Jar Project',
+        "lat": 32.962823,
+        "long": -117.035865,
+        "description": 'Poway, CA.  <br/> <a href="https://www.alabasterjarproject.org" target="_blank">Alabaster Jar Project</a>'
+    },
+    {
+        "agencyname": 'Interfaith Shelter Network',
+        "lat": 32.715738,
+        "long": -117.161084,
+        "description": 'San Diego, CA.<br/> <a href="http://interfaithshelter.org" target="_blank">Interfaith Shelter Network</a>'
+    },
+    {
+        "agencyname": 'The Well Path',
+        "lat": 33.119207,
+        "long": -117.086421,
+        "description": 'Escondido, CA.<br/> <a href="www.thewellpath.org " target="_blank">The Well Path</a>'
+    },
+    {
+        "agencyname": 'California Against Slavery',
+        "lat": 32.712628,
+        "long": -117.161053,
+        "description": 'San Diego, CA.<br/> <a href="https://californiaagainstslavery.org" target="_blank">California Against Slavery</a>'
+    },
+    {
+        "agencyname": 'North County Lifeline',
+        "lat": 33.200037,
+        "long": -117.242536,
+        "description": 'Vista, CA.<br/> <a href="https://www.nclifeline.org" target="_blank">North County Lifeline</a>'
+    },
+    {
+        "agencyname": 'GenerateHope',
+        "lat": 32.712628,
+        "long": -117.155517,
+        "description": 'San Diego, CA.<br/> <a href="https://www.nclifeline.org" target="_blank">GenerateHope</a>'
+    },
+    {
+        "agencyname": 'Chadwick Center for Children and Families',
+        "lat": 32.715643,
+        "long": -117.156504,
+        "description": 'San Diego, CA.<br/> <a href="www.rchsd.org" target="_blank">Chadwick Center for Children and Families</a>'
+    },
+    {
+        "agencyname": 'South Bay Community Services',
+        "lat": 32.640054,
+        "long": -117.084196,
+        "description": 'Chula Vista, CA.<br/> <a href="www.rchsd.org" target="_blank">South Bay Community Services</a>'
+    },
+    {
+        "agencyname": 'San Diego Youth Services - I CARE',
+        "lat": 32.715510,
+        "long": -117.153764,
+        "description": 'San Diego, CA.<br/> <a href="http://www.sdyouthservices.org" target="_blank">San Diego Youth Services - I CARE</a>'
+    },
+    {
+        "agencyname": 'San Diego Youth Services - Tay Academy',
+        "lat": 32.715510,
+        "long": -117.153764,
+        "description": 'San Diego, CA.<br/> <a href="http://www.sdyouthservices.org" target="_blank">San Diego Youth Services - Tay Academy</a>'
+    },
+    {
+        "agencyname": 'OnRamps Collaborative at Point Loma Nazarene University',
+        "lat": 32.711394,
+        "long": -117.167411,
+        "description": 'San Diego, CA.<br/> <a href="https://www.pointloma.edu/centers-institutes/center-justice-reconciliation/onramps-collaborative" target="_blank">OnRamps Collaborative at Point Loma Nazarene University</a>'
+    },
+    {
+        "agencyname": 'Valley Oasis',
+        "lat": 34.579434,
+        "long": -118.116461,
+        "description": 'Palmdale, CA.<br/> <a href="http://www.valleyoasis.org/what-we-do.html#domestic-violence-shelter" target="_blank">Valley Oasis</a>'
+    },
+    {
+        "agencyname": 'La Maestra Community Health Centers',
+        "lat": 32.718615,
+        "long": -117.161918,
+        "description": 'San Diego, CA.<br/> <a href="http://www.lamaestra.org" target="_blank">La Maestra Community Health Centers</a>'
+    },
+    {
+        "agencyname": 'WRC',
+        "lat": 33.195870,
+        "long": -117.379483,
+        "description": 'Oceanside, CA.<br/> <a href="https://www.wrcsd.org" target="_blank">WRC</a>'
+    },
+    {
+        "agencyname": 'Eastern Panhandle Empowerment Center',
+        "lat": 39.456210,
+        "long": -77.963887,
+        "description": 'Martinsburg, WV.<br/> <a href="https://epecwv.org" target="_blank">Eastern Panhandle Empowerment Center</a>'
+    },
+    {
+        "agencyname": 'San Diego County District Attorney\'s Office',
+        "lat": 32.716485,
+        "long": -117.165909,
+        "description": 'San Diego, CA.<br/> <a href="https://www.sdcda.org/office/meet-da.html" target="_blank">San Diego County District Attorney\'s Office</a>'
+    },
+    {
+        "agencyname": 'Home Start, Inc.',
+        "lat": 32.715582,
+        "long": -117.163763,
+        "description": 'San Diego, CA.<br/> <a href="https://home-start.org" target="_blank">Home Start, Inc.</a>'
+    },
 ]
