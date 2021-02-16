@@ -457,12 +457,6 @@ var mapdata = [
         "description": 'Modesto, CA. <br/> <a href="https://www.havenwcs.org/" target="_blank">Haven Women\'s Center of Stanislaus</a>'
     },
     {
-        "agencyname": 'Helpmate',
-        "lat": 35.595058,
-        "long": -82.551487,
-        "description": 'Ashville, NC. <br/> <a href="http://helpmateonline.org/" target="_blank">HelpMate</a>'
-    },
-    {
         "agencyname": 'Community Advocates for Family & Youth',
         "lat": 38.7849,
         "long": -76.8721,
@@ -473,12 +467,6 @@ var mapdata = [
         "lat": 37.958512,
         "long": -120.424812,
         "description": 'Sonora, CA.   <br/> <a href="https://sites.google.com/site/kenemewunonprofit/" target="_blank">Kene Me-Wu Native American DV/SA Program</a>'
-    },
-    {
-        "agencyname": 'KIRAN, Inc.',
-        "lat": 35.779590,
-        "long": -78.638179,
-        "description": 'Raleigh, NC.<br/> <a href="https://www.kiraninc.org/" target="_blank">KIRAN, Inc.</a>'
     },
     {
         "agencyname": 'Lassen Family Services',
