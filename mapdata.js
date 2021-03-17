@@ -1074,4 +1074,64 @@ var mapdata = [
         "long": -117.163763,
         "description": 'San Diego, CA.<br/> <a href="https://home-start.org" target="_blank">Home Start, Inc.</a>'
     },
+    {
+        "agencyname": 'Southern Indian Health Center, Inc.',
+        "lat": 32.8351,
+        "long": -116.7664,
+        "description": 'Alpine, CA.<br/> <a href="https://sihc.org" target="_blank">Southern Indian Health Center, Inc.</a>'
+    },
+    {
+        "agencyname": 'Voces Unidas for Justice',
+        "lat": 38.8339,
+        "long": -104.8214,
+        "description": 'Colorado Springs, CO.<br/> <a href="http://www.vocesunidasforjustice.org" target="_blank">Voces Unidas for Justice</a>'
+    },
+    {
+        "agencyname": 'San Diego Youth Services',
+        "lat": 32.7157,
+        "long": -117.1611,
+        "description": 'San Diego, CA.<br/> <a href="https://sdyouthservices.org" target="_blank">San Diego Youth Services</a>'
+    },
+    {
+        "agencyname": 'Covenant House NJ',
+        "lat": 40.7357,
+        "long": -74.1724,
+        "description": 'Newark, NJ.<br/> <a href="https://covenanthousenj.org" target="_blank">Covenant House NJ</a>'
+    },
+    {
+        "agencyname": 'Free to Thrive',
+        "lat": 32.7157,
+        "long": -117.1611,
+        "description": 'San Diego, CA.<br/> <a href="https://www.freetothrive.org" target="_blank">Free to Thrive</a>'
+    },
+    {
+        "agencyname": 'South Carolina Victim Assistance Network',
+        "lat": 34.0007,
+        "long": -81.0348,
+        "description": 'Columbia, SC.<br/> <a href="http://www.scvan.org" target="_blank">South Carolina Victim Assistance Network</a>'
+    },
+    {
+        "agencyname": 'Child Development Associates',
+        "lat": 32.7157,
+        "long": -117.1611,
+        "description": 'San Diego, CA.<br/> <a href="https://cdasd.org" target="_blank">Child Development Associates</a>'
+    },
+    {
+        "agencyname": 'Palomar Health Forensic Health Services',
+        "lat": 33.1192,
+        "long": -117.0864,
+        "description": 'Escondido, CA.<br/> <a href="https://www.palomarhealth.org/forensic-health-services/forensic-health-services-home" target="_blank">Palomar Health Forensic Health Services</a>'
+    },
+    {
+        "agencyname": 'The Crisis Center of Tampa Bay',
+        "lat": 27.9506,
+        "long": -82.4572,
+        "description": 'Tampa, FL.<br/> <a href="http://www.crisiscenter.com/" target="_blank">The Crisis Center of Tampa Bay</a>'
+    },
+    {
+        "agencyname": 'Community Resource Center',
+        "lat": 33.0370,
+        "long": -117.2920,
+        "description": 'Encinitas, CA.<br/> <a href="www.crcncc.org" target="_blank">Community Resource Center</a>'
+    },
 ]
