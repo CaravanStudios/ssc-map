@@ -1134,4 +1134,118 @@ var mapdata = [
         "long": -117.2920,
         "description": 'Encinitas, CA.<br/> <a href="www.crcncc.org" target="_blank">Community Resource Center</a>'
     },
+    {
+        "agencyname": 'Crisis House',
+        "lat": 32.7948,
+        "long": -116.9625,
+        "description": 'El Cajon, CA.<br/> <a href="https://www.crisishouse.org/" target="_blank">Crisis House</a>'
+    },
+    {
+        "agencyname": 'San Diego Human Trafficking Task Force',
+        "lat": 32.7157,
+        "long": -117.1611,
+        "description": 'San Diego, CA.<br/> <a href="https://oag.ca.gov/human-trafficking" target="_blank">San Diego Human Trafficking Task Force</a>'
+    },
+    {
+        "agencyname": 'Asian Association of Utah',
+        "lat": 40.7608,
+        "long": -111.8910,
+        "description": 'Salt Lake City, UT.<br/> <a href="https://antitrafficking.aau-slc.org/" target="_blank">Asian Association of Utah</a>'
+    },
+    {
+        "agencyname": 'PeaceWorks, Inc',
+        "lat": 39.4061,
+        "long": -105.4786,
+        "description": 'Bailey, CO.<br/> <a href="https://peaceworksinc.com/" target="_blank">PeaceWorks, Inc</a>'
+    },
+    {
+        "agencyname": 'Volunteers of America',
+        "lat": 34.0522,
+        "long": -118.2437,
+        "description": 'Los Angeles, CA.<br/> <a href="https://www.voa.org" target="_blank">Volunteers of America</a>'
+    },
+    {
+        "agencyname": 'Center for Community Solutions - Porject SafeHouse',
+        "lat": 32.7157,
+        "long": -117.1611,
+        "description": 'San Diego, CA.<br/> <a href="https://www.ccssd.org/" target="_blank">Center for Community Solutions - Porject SafeHouse</a>'
+    },
+    {
+        "agencyname": 'Center for Community Solutions - Hidden Valley House',
+        "lat": 33.1192,
+        "long": -117.0864,
+        "description": 'Escondido, CA.<br/> <a href="https://www.ccssd.org/" target="_blank">Center for Community Solutions - Hidden Valley House</a>'
+    },
+    {
+        "agencyname": 'Vista Hill',
+        "lat": 32.7678,
+        "long": -117.0231,
+        "description": 'La Mesa, CA.<br/> <a href="http://www.vistahill.org/" target="_blank">Vista Hill</a>'
+    },
+    {
+        "agencyname": 'NAMI San Diego',
+        "lat": 32.7157,
+        "long": -117.1611,
+        "description": 'San Diego, CA.<br/> <a href="https://namisandiego.org/" target="_blank">NAMI San Diego</a>'
+    },
+    {
+        "agencyname": 'CASA, Inc.',
+        "lat": 39.6418,
+        "long": -77.7200,
+        "description": 'Hagerstown, MD.<br/> <a href="http://www.casainc.org/" target="_blank">CASA, Inc.</a>'
+    },
+    {
+        "agencyname": 'Narika',
+        "lat": 37.5485,
+        "long": -121.9886,
+        "description": 'Fremont, CA.<br/> <a href="http://www.narika.org/" target="_blank">Narika</a>'
+    },
+    {
+        "agencyname": 'Indian Health Council',
+        "lat": 33.2184,
+        "long": -117.0342,
+        "description": 'Valley Center, CA.<br/> <a href="https://www.indianhealth.com/" target="_blank">Indian Health Council</a>'
+    },
+    {
+        "agencyname": 'Animal Safehouse Program',
+        "lat": 28.3200,
+        "long": -80.6076,
+        "description": 'Cocoa Beach, FL.<br/> <a href="https://www.animalsafehousebrevard.org/" target="_blank">Animal Safehouse Program</a>'
+    },
+    {
+        "agencyname": 'Blackstone Valley Advocacy Center',
+        "lat": 41.8907,
+        "long": -71.3923,
+        "description": 'Central Falls, RI.<br/> <a href="https://www.bvadvocacycenter.org/en/" target="_blank">Blackstone Valley Advocacy Center</a>'
+    },
+    {
+        "agencyname": 'Crossroads Domestic Violence Program',
+        "lat": 41.8240,
+        "long": -71.4128,
+        "description": 'Providence, RI.<br/> <a href="http://www.crossroadsri.org/" target="_blank">Crossroads Domestic Violence Program</a>'
+    },
+    {
+        "agencyname": 'Domestic Violence Resource Center of South County',
+        "lat": 41.4382,
+        "long": -71.5016,
+        "description": 'Wakefield, RI.<br/> <a href="http://www.dvrcsc.org/" target="_blank">Domestic Violence Resource Center of South County</a>'
+    },
+    {
+        "agencyname": 'Sojourner House',
+        "lat": 41.8240,
+        "long": -71.4128,
+        "description": 'Providence, RI.<br/> <a href="http://sojournerri.org/" target="_blank">Sojourner House</a>'
+    },
+    {
+        "agencyname": 'Women\'s Resource Center',
+        "lat": 41.4901,
+        "long": -71.3128,
+        "description": 'Newport, RI.<br/> <a href="www.wrcnbc.org" target="_blank">Women\'s Resource Center</a>'
+    },
+    {
+        "agencyname": 'Catholic Charities Diocese of Venice',
+        "lat": 27.0998,
+        "long": -82.4543,
+        "description": 'Venice, FL.<br/> <a href="www.wrcnbc.org" target="_blank">Catholic Charities Diocese of Venice</a>'
+    },
 ]
