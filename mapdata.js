@@ -1233,7 +1233,7 @@ var mapdata = [
     {
         "agencyname": 'Sojourner House',
         "lat": 41.8240,
-        "long": -71.4128,
+        "long": -71.4129,
         "description": 'Providence, RI.<br/> <a href="http://sojournerri.org/" target="_blank">Sojourner House</a>'
     },
     {
