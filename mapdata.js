@@ -4,7 +4,7 @@ var mapdata = [
         "agencyname": 'AACI Asian Women\'s Home',
         "lat": 37.312286,
         "long": -121.925293,
-        "description": 'San Jose, CA.<br/> <a href="http://aaci.org/" target="_blank">AACI</a>'
+        "description": 'San Jose, CA.<br/> <a href="https://aaci.org/" target="_blank">AACI</a>'
     },
     {
         "agencyname": 'CORA',
@@ -16,7 +16,7 @@ var mapdata = [
         "agencyname": 'Advocates for Victims of Assault',
         "lat": 39.574431,
         "long": -106.097520,
-        "description": 'Frisco, CO.<br/> <a href="http://www.summitadvocates.org/" target="_blank">Advocates for Victims of Assualt</a>'
+        "description": 'Frisco, CO.<br/> <a href="https://www.summitadvocates.org/" target="_blank">Advocates for Victims of Assualt</a>'
     },
     {
         "agencyname": 'Alternatives to Violence - Colorado',
@@ -34,7 +34,7 @@ var mapdata = [
         "agencyname": 'Camden County Women\'s Center',
         "lat": 39.802336,
         "long": -75.064060,
-        "description": 'Blackwood, NJ. <br/> <a href="http://www.camdencountywomenscenter.org/" target="_blank">Camden County Women\'s Center</a>'
+        "description": 'Blackwood, NJ. <br/> <a href="https://www.camdencountywomenscenter.org/" target="_blank">Camden County Women\'s Center</a>'
     },
     {
         "agencyname": 'Center FFS/SERV Cumberland',
@@ -52,13 +52,13 @@ var mapdata = [
         "agencyname": 'Crisis Center',
         "lat": 39.372212,
         "long": -104.856090,
-        "description": 'Castle Rock, CO. <br/> <a href="http://thecrisiscenter.org/" target="_blank">Crisis Center</a>'
+        "description": 'Castle Rock, CO. <br/> <a href="https://thecrisiscenter.org/" target="_blank">Crisis Center</a>'
     },
     {
         "agencyname": 'Crossroads Safehouse',
         "lat": 40.585260,
         "long": -105.084423,
-        "description": 'Fort Collins, CO.<br/> <a href="http://www.crossroadssafehouse.org/" target="_blank">Crossroads Safehouse</a>'
+        "description": 'Fort Collins, CO.<br/> <a href="https://www.crossroadssafehouse.org/" target="_blank">Crossroads Safehouse</a>'
     },
     {
         "agencyname": 'Denton County Friends of the Family',
@@ -76,7 +76,7 @@ var mapdata = [
         "agencyname": 'Estes Valley Crisis Advocates',
         "lat": 40.377206,
         "long": -105.521665,
-        "description": 'Estes Park, CO.<br/> <a href="http://www.estesvalleycrisisadvocates.org/" target="_blank">Estes Valley Crisis Advocates</a>'
+        "description": 'Estes Park, CO.<br/> <a href="https://www.estesvalleycrisisadvocates.org/" target="_blank">Estes Valley Crisis Advocates</a>'
     },
     {
         "agencyname": 'Hope\'s Door - Garland',
@@ -94,7 +94,7 @@ var mapdata = [
         "agencyname": 'Jersey Battered Women\'s Services',
         "lat": 40.796767,
         "long": -74.481544,
-        "description": 'Morristown, NJ.<br/> <a href="http://www.jbws.org/" target="_blank">Jersey Battered Women\'s Services</a>'
+        "description": 'Morristown, NJ.<br/> <a href="https://www.jbws.org/" target="_blank">Jersey Battered Women\'s Services</a>'
     },
     {
         "agencyname": 'Jewish Family and Children\'s Services',
@@ -112,25 +112,25 @@ var mapdata = [
         "agencyname": 'Monarch Services',
         "lat": 36.914321,
         "long": -121.755055,
-        "description": 'Santa Cruz , CA.<br/> <a href="http://www.monarchscc.org/" target="_blank">Monarch Services</a>'
+        "description": 'Santa Cruz , CA.<br/> <a href="https://www.monarchscc.org/" target="_blank">Monarch Services</a>'
     },
     {
         "agencyname": 'Mosaic Family Services',
         "lat": 32.776664,
         "long": -96.796988,
-        "description": 'Dallas , TX.<br/> <a href="http://mosaicservices.org/" target="_blank">Mosaic Family Services</a>'
+        "description": 'Dallas , TX.<br/> <a href="https://mosaicservices.org/" target="_blank">Mosaic Family Services</a>'
     },
     {
         "agencyname": 'My Sister\'s House',
         "lat": 38.549031,
         "long": -121.488963,
-        "description": 'Sacramento , CA.<br/> <a href="http://www.my-sisters-house.org/" target="_blank">My Sister\'s House</a>'
+        "description": 'Sacramento , CA.<br/> <a href="https://www.my-sisters-house.org/" target="_blank">My Sister\'s House</a>'
     },
     {
         "agencyname": 'New Friends New Life',
         "lat": 32.8122,
         "long": -96.8110,
-        "description": 'Dallas, TX.<br/> <a href="http://www.newfriendsnewlife.org/" target="_blank">New Friends New Life</a>'
+        "description": 'Dallas, TX.<br/> <a href="https://www.newfriendsnewlife.org/" target="_blank">New Friends New Life</a>'
     },
     {
         "agencyname": 'Providence House Burlington',
@@ -154,7 +154,7 @@ var mapdata = [
         "agencyname": 'Ruby\'s Place',
         "lat": 37.675098,
         "long": -122.079842,
-        "description": 'Hayward, CA.<br/> <a href="http://www.rubysplace.org/wp/" target="_blank">Ruby\'s Place</a>'
+        "description": 'Hayward, CA.<br/> <a href="https://www.rubysplace.org/wp/" target="_blank">Ruby\'s Place</a>'
     },
     {
         "agencyname": 'Safe House',
@@ -166,19 +166,19 @@ var mapdata = [
         "agencyname": 'Safehouse Progressive Alliance for Nonviolence',
         "lat": 40.014986,
         "long": -105.270546,
-        "description": 'Boulder, CO.<br/> <a href="http://www.safehousealliance.org/" target="_blank">Safehouse Progressive Alliance for Nonviolence</a>'
+        "description": 'Boulder, CO.<br/> <a href="https://www.safehousealliance.org/" target="_blank">Safehouse Progressive Alliance for Nonviolence</a>'
     },
     {
         "agencyname": 'Safe Shelter of St Vrain Valley',
         "lat": 40.167207,
         "long": -105.101927,
-        "description": 'Longmont, CO.<br/> <a href="http://www.safeshelterofstvrain.org/" target="_blank">Safe Shelter of St Vrain Valley</a>'
+        "description": 'Longmont, CO.<br/> <a href="https://www.safeshelterofstvrain.org/" target="_blank">Safe Shelter of St Vrain Valley</a>'
     },
     {
         "agencyname": 'The Chest of Hope',
         "lat": 37.739356,
         "long": -121.424377,
-        "description": 'Tracy, CA.   <br/> <a href="http://www.chestofhope.org/home.aspx" target="_blank">The Chest of Hope</a>'
+        "description": 'Tracy, CA.   <br/> <a href="https://www.chestofhope.org/home.aspx" target="_blank">The Chest of Hope</a>'
     },
     {
         "agencyname": 'The Salvation Army',
@@ -220,7 +220,7 @@ var mapdata = [
         "agencyname": 'Grayson Crisis Center',
         "lat": 33.6357,
         "long": -96.6089,
-        "description": 'Sherman, TX.   <br/> <a href="http://www.graysoncrisiscenter.org/" target="_blank">Grayson Crisis Center</a>'
+        "description": 'Sherman, TX.   <br/> <a href="https://www.graysoncrisiscenter.org/" target="_blank">Grayson Crisis Center</a>'
     },
     {
         "agencyname": 'ACCESS (Assault Care Extending Shelter and Support)',
@@ -232,13 +232,13 @@ var mapdata = [
         "agencyname": 'Alameda County District Attorney Office Victim/Witness Division',
         "lat": 37.801261,
         "long": -122.262975,
-        "description": 'Oakland, CA.   <br/> <a href="http://www.alcoda.org/victim_witness/" target="_blank">Alameda County District Attorney Office Victim/Witness Division</a>'
+        "description": 'Oakland, CA.   <br/> <a href="https://www.alcoda.org/victim_witness/" target="_blank">Alameda County District Attorney Office Victim/Witness Division</a>'
     },
     {
         "agencyname": 'Alternatives to Domestic Violence',
         "lat": 33.953349,
         "long": -117.396156,
-        "description": 'Riverside, CA. <br/> <a href="http://alternativestodv.org/" target="_blank">Alternatives to Domestic Violence</a>'
+        "description": 'Riverside, CA. <br/> <a href="https://alternativestodv.org/" target="_blank">Alternatives to Domestic Violence</a>'
     },
     {
         "agencyname": 'Empower Tehama',
@@ -256,19 +256,19 @@ var mapdata = [
         "agencyname": 'Catalyst Domestic Violence Services',
         "lat": 39.728494,
         "long": -121.837478,
-        "description": 'Chico, CA.<br/> <a href="http://www.catalystdvservices.org/" target="_blank">Catalyst Domestic Violence Services</a>'
+        "description": 'Chico, CA.<br/> <a href="https://www.catalystdvservices.org/" target="_blank">Catalyst Domestic Violence Services</a>'
     },
     {
         "agencyname": 'CHETNA',
         "lat": 32.948333,
         "long": -96.729852,
-        "description": 'Richardson, TX.   <br/> <a href="http://www.chetna-dfw.org/" target="_blank">CHETNA</a>'
+        "description": 'Richardson, TX.   <br/> <a href="https://www.chetna-dfw.org/" target="_blank">CHETNA</a>'
     },
     {
         "agencyname": 'Coalition to Abolish Slavery and Trafficking (CAST)',
         "lat": 34.066482,
         "long": -118.352039,
-        "description": 'Los Angeles, CA.<br/> <a href="http://www.castla.org/home" target="_blank">Coalition to Abolish Slavery and Trafficking (CAST)</a>'
+        "description": 'Los Angeles, CA.<br/> <a href="https://www.castla.org/home" target="_blank">Coalition to Abolish Slavery and Trafficking (CAST)</a>'
     },
     {
         "agencyname": 'Community Coalition Against Human Trafficking/Glow Free TN',
@@ -280,37 +280,37 @@ var mapdata = [
         "agencyname": 'Crisis Intervention Service',
         "lat": 43.153573,
         "long": -93.201037,
-        "description": 'Mason City, IA. <br/> <a href="http://www.cishelps.org/" target="_blank">Crisis Intervention Service</a>'
+        "description": 'Mason City, IA. <br/> <a href="https://www.cishelps.org/" target="_blank">Crisis Intervention Service</a>'
     },
     {
         "agencyname": 'Family Support Services of Amarillo, Inc.',
         "lat": 35.221997,
         "long": -101.831297,
-        "description": 'Amarillo, TX. <br/> <a href="http://www.fss-ama.org/" target="_blank">Family Support Services of Amarillo, Inc.</a>'
+        "description": 'Amarillo, TX. <br/> <a href="https://www.fss-ama.org/" target="_blank">Family Support Services of Amarillo, Inc.</a>'
     },
     {
         "agencyname": 'Garden of Hope',
         "lat": 37.804364,
         "long": -122.271114,
-        "description": 'Flushing, NY. <br/> <a href="http://www.gohny.org/" target="_blank">Garden of Hope</a>'
+        "description": 'Flushing, NY. <br/> <a href="https://www.gohny.org/" target="_blank">Garden of Hope</a>'
     },
     {
         "agencyname": 'Glory House of Miami',
         "lat": 25.761680,
         "long": -80.19179,
-        "description": 'Miami, FL. <br/> <a href="http://www.gloryhouseofmiami.org/" target="_blank">Glory House of Miami</a>'
+        "description": 'Miami, FL. <br/> <a href="https://www.gloryhouseofmiami.org/" target="_blank">Glory House of Miami</a>'
     },
     {
         "agencyname": 'Community Advocates for Family & Youth',
         "lat": 38.7849,
         "long": -76.8721,
-        "description": 'Capitol Heights, MD.<br/> <a href="http://www.cafyonline.org/" target="_blank">Community Advocates for Family & Youth</a>'
+        "description": 'Capitol Heights, MD.<br/> <a href="https://www.cafyonline.org/" target="_blank">Community Advocates for Family & Youth</a>'
     },
     {
         "agencyname": 'Lassen Family Services',
         "lat": 40.416284,
         "long": -120.653006,
-        "description": 'Susanville, CA.<br/> <a href="http://lassenfamilyservices.org/" target="_blank">Lassen Family Services</a>'
+        "description": 'Susanville, CA.<br/> <a href="https://lassenfamilyservices.org/" target="_blank">Lassen Family Services</a>'
     },
     {
         "agencyname": 'New York City Gay and Lesbian Anti-Violence Project',
@@ -322,19 +322,19 @@ var mapdata = [
         "agencyname": 'Opening Doors, Inc.',
         "lat": 38.586358,
         "long": -121.415965,
-        "description": 'Sacramento, CA.   <br/> <a href="http://www.openingdoorsinc.org/" target="_blank">Opening Doors</a>'
+        "description": 'Sacramento, CA.   <br/> <a href="https://www.openingdoorsinc.org/" target="_blank">Opening Doors</a>'
     },
     {
         "agencyname": 'Restore NYC',
         "lat": 40.741333,
         "long": -73.903649,
-        "description": 'New York, NY. <br/> <a href="http://restorenyc.org/" target="_blank">Restore NYC</a>'
+        "description": 'New York, NY. <br/> <a href="https://restorenyc.org/" target="_blank">Restore NYC</a>'
     },
     {
         "agencyname": 'Sanar Wellness Institute',
         "lat": 40.735657,
         "long": -74.172367,
-        "description": 'Newark, NJ.   <br/> <a href="http://www.sanar-institute.org/" target="_blank">Sanar Wellness Institute</a>'
+        "description": 'Newark, NJ.   <br/> <a href="https://www.sanar-institute.org/" target="_blank">Sanar Wellness Institute</a>'
     },
     {
         "agencyname": 'The Second Step',
@@ -352,7 +352,7 @@ var mapdata = [
         "agencyname": 'Advocates of Lake County',
         "lat": 39.2508,
         "long": -106.2925,
-        "description": 'Leadville, CO.   <br/> <a href="http://advocatesoflakecounty.org/" target="_blank">Advocates of Lake County</a>'
+        "description": 'Leadville, CO.   <br/> <a href="https://advocatesoflakecounty.org/" target="_blank">Advocates of Lake County</a>'
     },
     {
         "agencyname": 'The Gathering Place',
@@ -364,31 +364,31 @@ var mapdata = [
         "agencyname": 'Passaic County Women\’s Center',
         "lat": 40.9169,
         "long": -74.1719,
-        "description": 'Paterson, NJ.   <br/> <a href="http://www.passaiccountywomenscenter.org/" target="_blank">Passaic County Women\’s Center </a>'
+        "description": 'Paterson, NJ.   <br/> <a href="https://www.passaiccountywomenscenter.org/" target="_blank">Passaic County Women\’s Center </a>'
     },
     {
         "agencyname": 'YWCA Union County',
         "lat": 40.6640,
         "long": -74.2107,
-        "description": 'Elizabeth, NJ.   <br/> <a href="http://www.ywcaunioncounty.org/" target="_blank">YWCA Union County</a>'
+        "description": 'Elizabeth, NJ.   <br/> <a href="https://www.ywcaunioncounty.org/" target="_blank">YWCA Union County</a>'
     },
     {
         "agencyname": 'Jewish Family Service and Children’s Center',
         "lat": 40.8568,
         "long": -74.1285,
-        "description": 'Passaic, NJ.   <br/> <a href="http://www.jfsclifton.org/" target="_blank">Jewish Family Service and Children’s Center</a>'
+        "description": 'Passaic, NJ.   <br/> <a href="https://www.jfsclifton.org/" target="_blank">Jewish Family Service and Children’s Center</a>'
     },
     {
         "agencyname": 'Victim Services of the San Francisco District Attorney Office',
         "lat": 37.7749,
         "long": -122.4194,
-        "description": 'San Francisco, CA.   <br/> <a href="http://sfdistrictattorney.org/victim-services" target="_blank">Victim Services of the San Francisco District Attorney Office</a>'
+        "description": 'San Francisco, CA.   <br/> <a href="https://sfdistrictattorney.org/victim-services" target="_blank">Victim Services of the San Francisco District Attorney Office</a>'
     },
     {
         "agencyname": 'Safe + Sound Somerset',
         "lat": 40.5106,
         "long": -74.6473,
-        "description": 'Hillsborough, NJ.   <br/> <a href="http://www.safe-sound.org/" target="_blank">Safe and Sound</a>'
+        "description": 'Hillsborough, NJ.   <br/> <a href="https://www.safe-sound.org/" target="_blank">Safe and Sound</a>'
     },
     {
         "agencyname": 'Breaking the Chains',
@@ -400,7 +400,7 @@ var mapdata = [
         "agencyname": 'Coalition Against Rape and Abuse',
         "lat": 39.0826,
         "long": -74.8238,
-        "description": 'Cape May Court, NJ.   <br/> <a href="http://www.cara-cmc.org/" target="_blank">Coalition Against Rape and Abuse</a>'
+        "description": 'Cape May Court, NJ.   <br/> <a href="https://www.cara-cmc.org/" target="_blank">Coalition Against Rape and Abuse</a>'
     },
     {
         "agencyname": 'Winnemucca Domestic Violence Services Inc.',
@@ -412,13 +412,13 @@ var mapdata = [
         "agencyname": 'Alliance Against Family Violence and Sexual Assault',
         "lat": 35.3733,
         "long": -119.0187,
-        "description": 'Bakersfield, CA.  <br/> <a href="http://kernalliance.org/" target="_blank">Alliance Against Family Violence and Sexual Assault</a>'
+        "description": 'Bakersfield, CA.  <br/> <a href="https://kernalliance.org/" target="_blank">Alliance Against Family Violence and Sexual Assault</a>'
     },
     {
         "agencyname": 'Refuge City',
         "lat": 32.9483,
         "long": -96.7299,
-        "description": 'Richardson, TX.  <br/> <a href="http://www.refuge-city.org/" target="_blank">Refuge City</a>'
+        "description": 'Richardson, TX.  <br/> <a href="https://www.refuge-city.org/" target="_blank">Refuge City</a>'
     },
     {
         "agencyname": 'Center for Abused Persons',
@@ -436,7 +436,7 @@ var mapdata = [
         "agencyname": 'Durham Crisis Response Center',
         "lat": 35.993426,
         "long": -78.89428190000001,
-        "description": 'Durham, NC.<br/> <a href="http://www.durhamcrisisresponse.org/" target="_blank">Durham Crisis Response Center</a>'
+        "description": 'Durham, NC.<br/> <a href="https://www.durhamcrisisresponse.org/" target="_blank">Durham Crisis Response Center</a>'
     },
     {
         "agencyname": 'YWCA of the Upper Lowlands, Inc.',
@@ -460,7 +460,7 @@ var mapdata = [
         "agencyname": 'The Initiative',
         "lat": 39.7302068,
         "long": -104.9828334,
-        "description": 'Denver, CO.  <br/> <a href="http://www.theinitiativecolorado.org/" target="_blank">The Initiative</a>'
+        "description": 'Denver, CO.  <br/> <a href="https://www.theinitiativecolorado.org/" target="_blank">The Initiative</a>'
     },
     {
         "agencyname": 'Baylor College of Medicine Anti-Human Trafficking Program',
@@ -478,7 +478,7 @@ var mapdata = [
         "agencyname": 'Open Arms Rape Crisis & LGBT+ Services Center',
         "lat": 31.4638,
         "long": -100.4370,
-        "description": 'San Angelo, TX.  <br/> <a href="http://openarmscv.com" target="_blank">Open Arms Rape Crisis & LGBT+ Services Center</a>'
+        "description": 'San Angelo, TX.  <br/> <a href="https://openarmscv.com" target="_blank">Open Arms Rape Crisis & LGBT+ Services Center</a>'
     },
     {
         "agencyname": 'Volunteers of America',
@@ -490,7 +490,7 @@ var mapdata = [
         "agencyname": 'Created Women, Inc',
         "lat": 27.9506,
         "long": -82.4572,
-        "description": 'Tampa, Fl.<br/> <a href="http://www.createdwomen.com" target="_blank">Created Women, Inc</a>'
+        "description": 'Tampa, Fl.<br/> <a href="https://www.createdwomen.com" target="_blank">Created Women, Inc</a>'
     },
     {
         "agencyname": 'United Abolitionist, Inc',
@@ -562,19 +562,19 @@ var mapdata = [
         "agencyname": 'Clinton County Women\'s Center d/b/a Roads to Peace',
         "lat": 41.137523,
         "long": -77.448349,
-        "description": 'Lock Haven, PA.  <br/> <a href="http://www.ccwcsafe.org" target="_blank">Clinton County Women\'s Center d/b/a Roads to Peace</a>'
+        "description": 'Lock Haven, PA.  <br/> <a href="https://www.ccwcsafe.org" target="_blank">Clinton County Women\'s Center d/b/a Roads to Peace</a>'
     },
     {
         "agencyname": 'Renew Inc.',
         "lat": 37.348621,
         "long": -108.583778,
-        "description": 'Cortez, Co.  <br/> <a href="www.renew-inc.org" target="_blank">Renew Inc.</a>'
+        "description": 'Cortez, Co.  <br/> <a href="https://www.renew-inc.org" target="_blank">Renew Inc.</a>'
     },
     {
         "agencyname": 'Change is Possible',
         "lat": 36.147511,
         "long": -82.414001,
-        "description": 'Erwin, TN.  <br/> <a href="http://www.chipsfvs.org" target="_blank">Change is Possible</a>'
+        "description": 'Erwin, TN.  <br/> <a href="https://http://www.chipsfvs.org" target="_blank">Change is Possible</a>'
     },
     {
         "agencyname": 'The Women\'s Advocacy Center',
@@ -586,13 +586,13 @@ var mapdata = [
         "agencyname": 'Advocating Opportunity',
         "lat": 36.162664,
         "long": -86.781602,
-        "description": 'Nashville, TN.  <br/> <a href="http://www.advocatingopportunity.com" target="_blank">Advocating Opportunity</a>'
+        "description": 'Nashville, TN.  <br/> <a href="https://www.advocatingopportunity.com" target="_blank">Advocating Opportunity</a>'
     },
     {
         "agencyname": 'Bilateral Safety Corridor Coalition',
         "lat": 32.678109,
         "long": -117.099197,
-        "description": 'National City, CA.  <br/> <a href="http://www.bsccoalition.org" target="_blank">Bilateral Safety Corridor Coalition</a>'
+        "description": 'National City, CA.  <br/> <a href="https://www.bsccoalition.org" target="_blank">Bilateral Safety Corridor Coalition</a>'
     },
     {
         "agencyname": 'Set Free Monterey Bay',
@@ -604,7 +604,7 @@ var mapdata = [
         "agencyname": 'The Formation Project',
         "lat": 32.776475,
         "long": -79.931051,
-        "description": 'Charleston, NC.  <br/> <a href="theformationproject.org" target="_blank">The Formation Project</a>'
+        "description": 'Charleston, NC.  <br/> <a href="https://www.theformationproject.org" target="_blank">The Formation Project</a>'
     },
     {
         "agencyname": 'Alabaster Jar Project',
@@ -622,13 +622,13 @@ var mapdata = [
         "agencyname": 'The Well Path',
         "lat": 33.119207,
         "long": -117.086421,
-        "description": 'Escondido, CA.<br/> <a href="www.thewellpath.org " target="_blank">The Well Path</a>'
+        "description": 'Escondido, CA.<br/> <a href="https://www.thewellpath.org " target="_blank">The Well Path</a>'
     },
     {
         "agencyname": 'California Against Slavery',
         "lat": 32.712628,
         "long": -117.161053,
-        "description": 'San Diego, CA.<br/> <a href="https://californiaagainstslavery.org" target="_blank">California Against Slavery</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.californiaagainstslavery.org" target="_blank">California Against Slavery</a>'
     },
     {
         "agencyname": 'North County Lifeline',
@@ -646,13 +646,13 @@ var mapdata = [
         "agencyname": 'Chadwick Center for Children and Families',
         "lat": 32.715643,
         "long": -117.156504,
-        "description": 'San Diego, CA.<br/> <a href="www.rchsd.org" target="_blank">Chadwick Center for Children and Families</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.rchsd.org" target="_blank">Chadwick Center for Children and Families</a>'
     },
     {
         "agencyname": 'South Bay Community Services',
         "lat": 32.640054,
         "long": -117.084196,
-        "description": 'Chula Vista, CA.<br/> <a href="www.rchsd.org" target="_blank">South Bay Community Services</a>'
+        "description": 'Chula Vista, CA.<br/> <a href="https://www.rchsd.org" target="_blank">South Bay Community Services</a>'
     },
     {
         "agencyname": 'San Diego Youth Services - I CARE',
@@ -676,13 +676,13 @@ var mapdata = [
         "agencyname": 'Valley Oasis',
         "lat": 34.579434,
         "long": -118.116461,
-        "description": 'Palmdale, CA.<br/> <a href="http://www.valleyoasis.org/what-we-do.html#domestic-violence-shelter" target="_blank">Valley Oasis</a>'
+        "description": 'Palmdale, CA.<br/> <a href="https://www.valleyoasis.org/what-we-do.html#domestic-violence-shelter" target="_blank">Valley Oasis</a>'
     },
     {
         "agencyname": 'La Maestra Community Health Centers',
         "lat": 32.718615,
         "long": -117.161918,
-        "description": 'San Diego, CA.<br/> <a href="http://www.lamaestra.org" target="_blank">La Maestra Community Health Centers</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.lamaestra.org" target="_blank">La Maestra Community Health Centers</a>'
     },
     {
         "agencyname": 'WRC',
@@ -718,7 +718,7 @@ var mapdata = [
         "agencyname": 'Voces Unidas for Justice',
         "lat": 38.8339,
         "long": -104.8214,
-        "description": 'Colorado Springs, CO.<br/> <a href="http://www.vocesunidasforjustice.org" target="_blank">Voces Unidas for Justice</a>'
+        "description": 'Colorado Springs, CO.<br/> <a href="https://www.vocesunidasforjustice.org" target="_blank">Voces Unidas for Justice</a>'
     },
     {
         "agencyname": 'San Diego Youth Services',
@@ -742,7 +742,7 @@ var mapdata = [
         "agencyname": 'South Carolina Victim Assistance Network',
         "lat": 34.0007,
         "long": -81.0348,
-        "description": 'Columbia, SC.<br/> <a href="http://www.scvan.org" target="_blank">South Carolina Victim Assistance Network</a>'
+        "description": 'Columbia, SC.<br/> <a href="https://www.scvan.org" target="_blank">South Carolina Victim Assistance Network</a>'
     },
     {
         "agencyname": 'Child Development Associates',
@@ -760,13 +760,13 @@ var mapdata = [
         "agencyname": 'The Crisis Center of Tampa Bay',
         "lat": 27.9506,
         "long": -82.4572,
-        "description": 'Tampa, FL.<br/> <a href="http://www.crisiscenter.com/" target="_blank">The Crisis Center of Tampa Bay</a>'
+        "description": 'Tampa, FL.<br/> <a href="https://www.crisiscenter.com/" target="_blank">The Crisis Center of Tampa Bay</a>'
     },
     {
         "agencyname": 'Community Resource Center',
         "lat": 33.0370,
         "long": -117.2920,
-        "description": 'Encinitas, CA.<br/> <a href="www.crcncc.org" target="_blank">Community Resource Center</a>'
+        "description": 'Encinitas, CA.<br/> <a href="https://www.crcncc.org" target="_blank">Community Resource Center</a>'
     },
     {
         "agencyname": 'Crisis House',
@@ -808,7 +808,7 @@ var mapdata = [
         "agencyname": 'Vista Hill',
         "lat": 32.7678,
         "long": -117.0231,
-        "description": 'La Mesa, CA.<br/> <a href="http://www.vistahill.org/" target="_blank">Vista Hill</a>'
+        "description": 'La Mesa, CA.<br/> <a href="https://www.vistahill.org/" target="_blank">Vista Hill</a>'
     },
     {
         "agencyname": 'NAMI San Diego',
@@ -820,13 +820,13 @@ var mapdata = [
         "agencyname": 'CASA, Inc.',
         "lat": 39.6418,
         "long": -77.7200,
-        "description": 'Hagerstown, MD.<br/> <a href="http://www.casainc.org/" target="_blank">CASA, Inc.</a>'
+        "description": 'Hagerstown, MD.<br/> <a href="https://www.casainc.org/" target="_blank">CASA, Inc.</a>'
     },
     {
         "agencyname": 'Narika',
         "lat": 37.5485,
         "long": -121.9886,
-        "description": 'Fremont, CA.<br/> <a href="http://www.narika.org/" target="_blank">Narika</a>'
+        "description": 'Fremont, CA.<br/> <a href="https://www.narika.org/" target="_blank">Narika</a>'
     },
     {
         "agencyname": 'Indian Health Council',
@@ -850,414 +850,414 @@ var mapdata = [
         "agencyname": 'Crossroads Domestic Violence Program',
         "lat": 41.8240,
         "long": -71.4128,
-        "description": 'Providence, RI.<br/> <a href="http://www.crossroadsri.org/" target="_blank">Crossroads Domestic Violence Program</a>'
+        "description": 'Providence, RI.<br/> <a href="https://www.crossroadsri.org/" target="_blank">Crossroads Domestic Violence Program</a>'
     },
     {
         "agencyname": 'Domestic Violence Resource Center of South County',
         "lat": 41.4382,
         "long": -71.5016,
-        "description": 'Wakefield, RI.<br/> <a href="http://www.dvrcsc.org/" target="_blank">Domestic Violence Resource Center of South County</a>'
+        "description": 'Wakefield, RI.<br/> <a href="https://www.dvrcsc.org/" target="_blank">Domestic Violence Resource Center of South County</a>'
     },
     {
         "agencyname": 'Sojourner House',
         "lat": 41.8240,
         "long": -71.4128,
-        "description": 'Providence, RI.<br/> <a href="http://sojournerri.org/" target="_blank">Sojourner House</a>'
+        "description": 'Providence, RI.<br/> <a href="https://sojournerri.org/" target="_blank">Sojourner House</a>'
     },
     {
         "agencyname": 'Women\'s Resource Center',
         "lat": 41.4901,
         "long": -71.3128,
-        "description": 'Newport, RI.<br/> <a href="www.wrcnbc.org" target="_blank">Women\'s Resource Center</a>'
+        "description": 'Newport, RI.<br/> <a href="https://www.wrcnbc.org" target="_blank">Women\'s Resource Center</a>'
     },
     {
         "agencyname": 'Catholic Charities Diocese of Venice',
         "lat": 27.0998,
         "long": -82.4543,
-        "description": 'Venice, FL.<br/> <a href="www.wrcnbc.org" target="_blank">Catholic Charities Diocese of Venice</a>'
+        "description": 'Venice, FL.<br/> <a href="https://www.wrcnbc.org" target="_blank">Catholic Charities Diocese of Venice</a>'
     },
     {
       "agencyname": 'A New Hope Center',
       "lat": 42.1,
       "long": -76.3,
-      "description": 'Owego, NY.<br/> <a href="www.anewhopecenter.org" target="_blank">A New Hope Center</a>'
+      "description": 'Owego, NY.<br/> <a href="https://www.anewhopecenter.org" target="_blank">A New Hope Center</a>'
     },
     {
         "agencyname": 'Abuse Alternatives, Inc.',
         "lat": 36.5951,
         "long": -82.1887,
-        "description": 'Bristol, TN.<br/> <a href="www.abusealternativesinc.org" target="_blank">Abuse Alternatives, Inc.</a>'
+        "description": 'Bristol, TN.<br/> <a href="https://www.abusealternativesinc.org" target="_blank">Abuse Alternatives, Inc.</a>'
     },
     {
         "agencyname": 'AGAPE',
         "lat": 36.16,
         "long": -86.8,
-        "description": 'Nashville, TN.<br/> <a href="www.agapenashville.org" target="_blank">AGAPE</a>'
+        "description": 'Nashville, TN.<br/> <a href="https://www.agapenashville.org" target="_blank">AGAPE</a>'
     },
     {
         "agencyname": 'Allegany County Community Opportunities and Rural Development, Inc. (ACCORD)',
         "lat": 42.2231,
         "long": -78.0345,
-        "description": 'Belmont, NY.<br/> <a href="www.accordcorp.org" target="_blank">Allegany County Community Opportunities and Rural Development, Inc. (ACCORD)</a>'
+        "description": 'Belmont, NY.<br/> <a href="https://www.accordcorp.org" target="_blank">Allegany County Community Opportunities and Rural Development, Inc. (ACCORD)</a>'
     },
     {
         "agencyname": 'Aspire Health Partners',
         "lat": 28.55,
         "long": -81.4,
-        "description": 'Orlando, FL.<br/> <a href="www.aspirehealthpartners.com" target="_blank">Aspire Health Partners</a>'
+        "description": 'Orlando, FL.<br/> <a href="https://www.aspirehealthpartners.com" target="_blank">Aspire Health Partners</a>'
     },
     {
         "agencyname": 'Avalon Center',
         "lat": 35.949,
         "long": -85.0269,
-        "description": 'Crossville, TN.<br/> <a href="www.avaloncentertn.org" target="_blank">Avalon Center</a>'
+        "description": 'Crossville, TN.<br/> <a href="https://www.avaloncentertn.org" target="_blank">Avalon Center</a>'
     },
     {
         "agencyname": 'Behavioral Health Services North, Inc.',
         "lat": 44.6995,
         "long": -73.4529,
-        "description": 'Plattsburgh, NY.<br/> <a href="www.bhsn.org/social-services/stop-domestic-violence" target="_blank">Behavioral Health Services North, Inc.</a>'
+        "description": 'Plattsburgh, NY.<br/> <a href="https://www.bhsn.org/social-services/stop-domestic-violence" target="_blank">Behavioral Health Services North, Inc.</a>'
     },
     {
         "agencyname": 'Brighter Tomorrows, Inc.',
         "lat": 40.8004,
         "long": -72.7898,
-        "description": 'Center Moriches, NY.<br/> <a href="www.brightertomorrowsinc.org" target="_blank">Brighter Tomorrows, Inc.</a>'
+        "description": 'Center Moriches, NY.<br/> <a href="https://www.brightertomorrowsinc.org" target="_blank">Brighter Tomorrows, Inc.</a>'
     },
     {
         "agencyname": 'Camillus House - Phoenix House',
         "lat": 25.79,
         "long": -80.21,
-        "description": 'Miami, FL.<br/> <a href="www.camillushouse.org" target="_blank">Camillus House - Phoenix House</a>'
+        "description": 'Miami, FL.<br/> <a href="https://www.camillushouse.org" target="_blank">Camillus House - Phoenix House</a>'
     },
     {
         "agencyname": 'Captive Hearts Ministry',
         "lat": 35.1216,
         "long": -120.6213,
-        "description": 'Grove Beach, CA.<br/> <a href="www.captivehearts.org" target="_blank">Captive Hearts Ministry</a>'
+        "description": 'Grove Beach, CA.<br/> <a href="https://www.captivehearts.org" target="_blank">Captive Hearts Ministry</a>'
     },
     {
         "agencyname": 'Catholic Charities of Central Florida',
         "lat": 28.53,
         "long": -81.37,
-        "description": 'Orlando, FL.<br/> <a href="www.cflcc.org" target="_blank">Catholic Charities of Central Florida</a>'
+        "description": 'Orlando, FL.<br/> <a href="https://www.cflcc.org" target="_blank">Catholic Charities of Central Florida</a>'
     },
     {
         "agencyname": 'Catholic Charities of Schoharie, Domestic Violence Program',
         "lat": 42.6779,
         "long": -74.4854,
-        "description": 'Cobleskill, NY.<br/> <a href="www.charitiesccdos.org" target="_blank">Catholic Charities of Schoharie, Domestic Violence Program</a>'
+        "description": 'Cobleskill, NY.<br/> <a href="https://www.charitiesccdos.org" target="_blank">Catholic Charities of Schoharie, Domestic Violence Program</a>'
     },
     {
         "agencyname": 'Catholic Charities of Herkimer County',
         "lat": 43.0151,
         "long": -75.0354,
-        "description": 'Ilion, NY.<br/> <a href="www.ccherkimercounty.org" target="_blank">Catholic Charities of Herkimer County</a>'
+        "description": 'Ilion, NY.<br/> <a href="https://www.ccherkimercounty.org" target="_blank">Catholic Charities of Herkimer County</a>'
     },
     {
         "agencyname": 'Catholic Charities of Fulton & Montgomery Counties, Montgomery County Domestic Violence & Crime Victim Services',
         "lat": 42.9377,
         "long": -74.1904,
-        "description": 'Amsterdam, NY.<br/> <a href="www.catholiccharitiesfmc.org" target="_blank">Catholic Charities of Fulton & Montgomery Counties, Montgomery County Domestic Violence & Crime Victim Services</a>'
+        "description": 'Amsterdam, NY.<br/> <a href="https://www.catholiccharitiesfmc.org" target="_blank">Catholic Charities of Fulton & Montgomery Counties, Montgomery County Domestic Violence & Crime Victim Services</a>'
     },
     {
         "agencyname": 'Catholic Charities of Warren and Washington Counties',
         "lat": 43.3095,
         "long": -73.644,
-        "description": 'Glen Falls, NY.<br/> <a href="www.catholiccharitiesfmc.org" target="_blank">Catholic Charities of Warren and Washington Counties</a>'
+        "description": 'Glen Falls, NY.<br/> <a href="https://www.catholiccharitiesfmc.org" target="_blank">Catholic Charities of Warren and Washington Counties</a>'
     },
     {
         "agencyname": 'Center for Abuse and Rape Emergencies of Charlotte County, Inc.',
         "lat": 26.9372,
         "long": -82.0495,
-        "description": 'Punta Gorda, FL.<br/> <a href="www.carefl.org" target="_blank">Center for Abuse and Rape Emergencies of Charlotte County, Inc.</a>'
+        "description": 'Punta Gorda, FL.<br/> <a href="https://www.carefl.org" target="_blank">Center for Abuse and Rape Emergencies of Charlotte County, Inc.</a>'
     },
     {
         "agencyname": 'Child & Family Services of Erie County',
         "lat": 42.8864,
         "long": -78.8784,
-        "description": 'Buffalo, NY.<br/> <a href="www.cfsbny.org" target="_blank">Child & Family Services of Erie County</a>'
+        "description": 'Buffalo, NY.<br/> <a href="https://www.cfsbny.org" target="_blank">Child & Family Services of Erie County</a>'
     },
     {
         "agencyname": 'Children of the Immaculate Heart',
         "lat": 32.7157,
         "long": -117.1611,
-        "description": 'San Diego, CA.<br/> <a href="www.childrenoftheimmaculateheart.org" target="_blank">Children of the Immaculate Heart</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.childrenoftheimmaculateheart.org" target="_blank">Children of the Immaculate Heart</a>'
     },
     {
         "agencyname": 'Clarksville Area Urban Ministries SafeHouse',
         "lat": 36.5298,
         "long": -87.3595,
-        "description": 'Clarksville, TN.<br/> <a href="www.clarksvilleurbanministries.com/safehouse" target="_blank">Clarksville Area Urban Ministries SafeHouse</a>'
+        "description": 'Clarksville, TN.<br/> <a href="https://www.clarksvilleurbanministries.com/safehouse" target="_blank">Clarksville Area Urban Ministries SafeHouse</a>'
     },
     {
         "agencyname": 'Community Action of Greene County, Inc',
         "lat": 42.2173,
         "long": -73.8646,
-        "description": 'Catskill, NY.<br/> <a href="www.cagcny.org" target="_blank">Community Action of Greene County, Inc</a>'
+        "description": 'Catskill, NY.<br/> <a href="https://www.cagcny.org" target="_blank">Community Action of Greene County, Inc</a>'
     },
     {
         "agencyname": 'Connecting Communities in Action',
         "lat": 42.1578,
         "long": -78.715,
-        "description": 'Salamanca, NY.<br/> <a href="www.ccaction.org" target="_blank">Connecting Communities in Action</a>'
+        "description": 'Salamanca, NY.<br/> <a href="https://www.ccaction.org" target="_blank">Connecting Communities in Action</a>'
     },
     {
         "agencyname": 'Delaware Opportunities Inc. - SAV',
         "lat": 42.1912,
         "long": -74.9946,
-        "description": 'Hamden, NY.<br/> <a href="www.delawareopportunities.org" target="_blank">Delaware Opportunities Inc. - SAV</a>'
+        "description": 'Hamden, NY.<br/> <a href="https://www.delawareopportunities.org" target="_blank">Delaware Opportunities Inc. - SAV</a>'
     },
     {
         "agencyname": 'Equinox Inc.',
         "lat": 42.64,
         "long": -73.79,
-        "description": 'Albany, NY.<br/> <a href="www.equinoxinc.org" target="_blank">Equinox Inc.</a>'
+        "description": 'Albany, NY.<br/> <a href="https://www.equinoxinc.org" target="_blank">Equinox Inc.</a>'
     },
     {
         "agencyname": 'Genesis House, Inc.',
         "lat": 36.1628,
         "long": -85.5016,
-        "description": 'Cookville, TN.<br/> <a href="www.genesishouseinc.com" target="_blank">Genesis House, Inc.</a>'
+        "description": 'Cookville, TN.<br/> <a href="https://www.genesishouseinc.com" target="_blank">Genesis House, Inc.</a>'
     },
     {
         "agencyname": 'Harbor Safe House',
         "lat": 35.1595,
         "long": -84.8766,
-        "description": 'Cleveland, TN.<br/> <a href="www.fratn.com/family-violence" target="_blank">Harbor Safe House</a>'
+        "description": 'Cleveland, TN.<br/> <a href="https://www.fratn.com/family-violence" target="_blank">Harbor Safe House</a>'
     },
     {
         "agencyname": 'Haven of Lake and Sumter',
         "lat": 28.7,
         "long": -81.9,
-        "description": 'Leesburg, FL.<br/> <a href="www.havenlakesumter.org" target="_blank">Haven of Lake and Sumter</a>'
+        "description": 'Leesburg, FL.<br/> <a href="https://www.havenlakesumter.org" target="_blank">Haven of Lake and Sumter</a>'
     },
     {
         "agencyname": 'HOPE Center Inc.',
         "lat": 35.4429,
         "long": -84.593,
-        "description": 'Athens, TN.<br/> <a href="www.thehopecenterinc.com" target="_blank">HOPE Center Inc.</a>'
+        "description": 'Athens, TN.<br/> <a href="https://www.thehopecenterinc.com" target="_blank">HOPE Center Inc.</a>'
     },
     {
         "agencyname": 'HR Recovery Initiative',
         "lat": 39.3643,
         "long": -74.4229,
-        "description": 'Atlantic City, NJ.<br/> <a href="www.hrrecoveryinitiative.org" target="_blank">HR Recovery Initiative</a>'
+        "description": 'Atlantic City, NJ.<br/> <a href="https://www.hrrecoveryinitiative.org" target="_blank">HR Recovery Initiative</a>'
     },
     {
         "agencyname": 'International Network of Hearts',
         "lat": 32.64,
         "long": -117,
-        "description": 'Chula Vista, CA.<br/> <a href="www.inhearts.org" target="_blank">International Network of Hearts</a>'
+        "description": 'Chula Vista, CA.<br/> <a href="https://www.inhearts.org" target="_blank">International Network of Hearts</a>'
     },
     {
         "agencyname": 'International Rescue Committee Sacramento',
         "lat": 38.5816,
         "long": -121.4944,
-        "description": 'Sacramento, CA.<br/> <a href="www.rescue.org/united-states/sacramento-ca" target="_blank">International Rescue Committee Sacramento</a>'
+        "description": 'Sacramento, CA.<br/> <a href="https://www.rescue.org/united-states/sacramento-ca" target="_blank">International Rescue Committee Sacramento</a>'
     },
     {
         "agencyname": 'International Rescue Committee in San Diego',
         "lat": 32.7349,
         "long": -117.0971,
-        "description": 'San Diego, CA.<br/> <a href="www.rescue.org" target="_blank">International Rescue Committee in San Diego</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.rescue.org" target="_blank">International Rescue Committee in San Diego</a>'
     },
     {
         "agencyname": 'La Mesa City Hope DBA City Hope',
         "lat": 32.7448,
         "long": -116.9989,
-        "description": 'Spring Valley, CA.<br/> <a href="www.cityhopenow.org" target="_blank">La Mesa City Hope DBA City Hope</a>'
+        "description": 'Spring Valley, CA.<br/> <a href="https://www.cityhopenow.org" target="_blank">La Mesa City Hope DBA City Hope</a>'
     },
     {
         "agencyname": 'LI Against Domestic Violence',
         "lat": 40.8064,
         "long": -73.1241,
-        "description": 'Ronkonkoma, NY.<br/> <a href="www.liadv.org" target="_blank">LI Against Domestic Violence</a>'
+        "description": 'Ronkonkoma, NY.<br/> <a href="https://www.liadv.org" target="_blank">LI Against Domestic Violence</a>'
     },
     {
         "agencyname": 'Life In Action Mission, Inc (Operation Restore Hope)',
         "lat": 28.19,
         "long": -82.74,
-        "description": 'Holiday, FL.<br/> <a href="www.lifeinactionmission.com" target="_blank">Life In Action Mission, Inc (Operation Restore Hope)</a>'
+        "description": 'Holiday, FL.<br/> <a href="https://www.lifeinactionmission.com" target="_blank">Life In Action Mission, Inc (Operation Restore Hope)</a>'
     },
     {
         "agencyname": 'Monarch School Project',
         "lat": 32.7157,
         "long": -117.1611,
-        "description": 'San Diego, CA.<br/> <a href="www.liadv.org" target="_blank">Monarch School Project</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.liadv.org" target="_blank">Monarch School Project</a>'
     },
     {
         "agencyname": 'Oswego County Opportunities',
         "lat": 43.4553,
         "long": -76.5105,
-        "description": 'Oswego, NY.<br/> <a href="www.oco.org" target="_blank">Oswego County Opportunities</a>'
+        "description": 'Oswego, NY.<br/> <a href="https://www.oco.org" target="_blank">Oswego County Opportunities</a>'
     },
     {
         "agencyname": 'Partnership for Families Children and Adults',
         "lat": 35.0458,
         "long": -85.3094,
-        "description": 'Chattanooga, TN.<br/> <a href="www.partnershipfca.com" target="_blank">Partnership for Families Children and Adults</a>'
+        "description": 'Chattanooga, TN.<br/> <a href="https://www.partnershipfca.com" target="_blank">Partnership for Families Children and Adults</a>'
     },
     {
         "agencyname": 'Pinnacle Community Services',
         "lat": 43.0962,
         "long": -79.0377,
-        "description": 'Niagara Falls, NY.<br/> <a href="www.pinnaclecs.org" target="_blank">Pinnacle Community Services</a>'
+        "description": 'Niagara Falls, NY.<br/> <a href="https://www.pinnaclecs.org" target="_blank">Pinnacle Community Services</a>'
     },
     {
         "agencyname": 'Planned Parenthood of the Pacific Southwest',
         "lat": 32.7742,
         "long": -117.1412,
-        "description": 'San Diego, CA.<br/> <a href="www.planned.org" target="_blank">Planned Parenthood of the Pacific Southwest</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.planned.org" target="_blank">Planned Parenthood of the Pacific Southwest</a>'
     },
     {
         "agencyname": 'Project HELP, Inc.',
         "lat": 26.142,
         "long": -81.7948,
-        "description": 'Naples, FL.<br/> <a href="www.projecthelpnaples.org" target="_blank">Project HELP, Inc.</a>'
+        "description": 'Naples, FL.<br/> <a href="https://www.projecthelpnaples.org" target="_blank">Project HELP, Inc.</a>'
     },
     {
         "agencyname": 'Rise-NY',
         "lat": 42.0984,
         "long": -76.0494,
-        "description": 'Endicott, NY.<br/> <a href="www.rise-ny.org" target="_blank">Rise-NY</a>'
+        "description": 'Endicott, NY.<br/> <a href="https://www.rise-ny.org" target="_blank">Rise-NY</a>'
     },
     {
         "agencyname": 'SafeSpace',
         "lat": 35.8681,
         "long": -83.5618,
-        "description": 'Sevierville, TN.<br/> <a href="www.safespacetn.org" target="_blank">SafeSpace</a>'
+        "description": 'Sevierville, TN.<br/> <a href="https://www.safespacetn.org" target="_blank">SafeSpace</a>'
     },
     {
         "agencyname": 'San Diego Family Justice Center',
         "lat": 32.727,
         "long": -117.1647,
-        "description": 'San Diego, CA.<br/> <a href="www.sandiego.gov/yoursafeplace" target="_blank">San Diego Family Justice Center</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.sandiego.gov/yoursafeplace" target="_blank">San Diego Family Justice Center</a>'
     },
     {
         "agencyname": 'Scott County Shelter Society',
         "lat": 36.4981,
         "long": -84.5127,
-        "description": 'Oneida, TN.<br/> <a href="www.sandiego.gov/yoursafeplace" target="_blank">Scott County Shelter Society</a>'
+        "description": 'Oneida, TN.<br/> <a href="https://www.sandiego.gov/yoursafeplace" target="_blank">Scott County Shelter Society</a>'
     },
     {
         "agencyname": 'Serene Harbor',
         "lat": 28.03,
         "long": -80.59,
-        "description": 'Palm Bay, FL.<br/> <a href="www.sereneharbor.org" target="_blank">Serene Harbor</a>'
+        "description": 'Palm Bay, FL.<br/> <a href="https://www.sereneharbor.org" target="_blank">Serene Harbor</a>'
     },
     {
         "agencyname": 'Shelby County Crime Victims & Rape Crisis Center',
         "lat": 35.1495,
         "long": -90.049,
-        "description": 'Memphis, TN.<br/> <a href="www.shelbycountytn.gov" target="_blank">Shelby County Crime Victims & Rape Crisis Center</a>'
+        "description": 'Memphis, TN.<br/> <a href="https://www.shelbycountytn.gov" target="_blank">Shelby County Crime Victims & Rape Crisis Center</a>'
     },
     {
         "agencyname": 'Sunrise of Pasco County',
         "lat": 28.362922,
         "long": -82.18841,
-        "description": 'Dade City, FL.<br/> <a href="www.sunrisepasco.org" target="_blank">Sunrise of Pasco County</a>'
+        "description": 'Dade City, FL.<br/> <a href="https://www.sunrisepasco.org" target="_blank">Sunrise of Pasco County</a>'
     },
     {
         "agencyname": 'The A21 Campaign - Charlotte',
         "lat": 35.2271,
         "long": -80.8431,
-        "description": 'Charlotte, NC.<br/> <a href="http://www.a21.org/" target="_blank">The A21 Campaign - Charlotte</a>'
+        "description": 'Charlotte, NC.<br/> <a href="https://www.a21.org/" target="_blank">The A21 Campaign - Charlotte</a>'
     },
     {
         "agencyname": 'The A21 Campaign - DFW',
         "lat": 32.9941,
         "long": -97.3139,
-        "description": 'Fort Worth, TX.<br/> <a href="http://www.a21.org/" target="_blank">The A21 Campaign - DFW</a>'
+        "description": 'Fort Worth, TX.<br/> <a href="https://www.a21.org/" target="_blank">The A21 Campaign - DFW</a>'
     },
     {
         "agencyname": 'The Family Counseling Center/Fulton County Domestic Violence',
         "lat": 43.0529,
         "long": -74.3437,
-        "description": 'Gloversville, NY.<br/> <a href="www.thefamilycounselingcenter.org" target="_blank">The Family Counseling Center/Fulton County Domestic Violence</a>'
+        "description": 'Gloversville, NY.<br/> <a href="https://www.thefamilycounselingcenter.org" target="_blank">The Family Counseling Center/Fulton County Domestic Violence</a>'
     },
     {
         "agencyname": 'The Harbor, Inc.',
         "lat": 46.1879,
         "long": -123.8313,
-        "description": 'Astoria, OR.<br/> <a href="www.harbornw.org" target="_blank">The Harbor, Inc.</a>'
+        "description": 'Astoria, OR.<br/> <a href="https://www.harbornw.org" target="_blank">The Harbor, Inc.</a>'
     },
     {
         "agencyname": 'The Safe Center LI, Inc.',
         "lat": 40.7443,
         "long": -73.4821,
-        "description": 'Bethpage, NY.<br/> <a href="www.tscli.org" target="_blank">The Safe Center LI, Inc.</a>'
+        "description": 'Bethpage, NY.<br/> <a href="https://www.tscli.org" target="_blank">The Safe Center LI, Inc.</a>'
     },
     {
         "agencyname": 'UC San Diego Health',
         "lat": 32.7498,
         "long": -117.1677,
-        "description": 'San Diego, CA.<br/> <a href="www.health.ucsd.edu" target="_blank">UC San Diego Health</a>'
+        "description": 'San Diego, CA.<br/> <a href="https://www.health.ucsd.edu" target="_blank">UC San Diego Health</a>'
     },
     {
         "agencyname": 'United Way of Pasco County',
         "lat": 28.2189,
         "long": -82.4576,
-        "description": 'Land O\' Lakes, FL.<br/> <a href="www.unitedwaypasco.org" target="_blank">United Way of Pasco County</a>'
+        "description": 'Land O\' Lakes, FL.<br/> <a href="https://www.unitedwaypasco.org" target="_blank">United Way of Pasco County</a>'
     },
     {
         "agencyname": 'Unity House of Troy, Inc',
         "lat": 42.7284,
         "long": -73.6918,
-        "description": 'Troy, NY.<br/> <a href="www.unityhouseny.org" target="_blank">Unity House of Troy, Inc</a>'
+        "description": 'Troy, NY.<br/> <a href="https://www.unityhouseny.org" target="_blank">Unity House of Troy, Inc</a>'
     },
     {
         "agencyname": 'US Committee for Refugees and Immigrants',
         "lat": 41.609,
         "long": -93.6268,
-        "description": 'Des Moines, IA.<br/> <a href="www.refugees.org" target="_blank">US Committee for Refugees and Immigrants</a>'
+        "description": 'Des Moines, IA.<br/> <a href="https://www.refugees.org" target="_blank">US Committee for Refugees and Immigrants</a>'
     },
     {
         "agencyname": 'Vera House',
         "lat": 43.0481,
         "long": -76.1474,
-        "description": 'Syracuse, NY.<br/> <a href="www.verahouse.org" target="_blank">Vera House</a>'
+        "description": 'Syracuse, NY.<br/> <a href="https://www.verahouse.org" target="_blank">Vera House</a>'
     },
     {
         "agencyname": 'Victim Resource Center of the Finger Lakes, Inc.',
         "lat": 43.0467,
         "long": -77.0953,
-        "description": 'Newark, NY.<br/> <a href="www.survivoradvocacycenterfl.org" target="_blank">Victim Resource Center of the Finger Lakes, Inc.</a>'
+        "description": 'Newark, NY.<br/> <a href="https://www.survivoradvocacycenterfl.org" target="_blank">Victim Resource Center of the Finger Lakes, Inc.</a>'
     },
     {
         "agencyname": 'Wellspring (incorporated as Domestic Violence and Rape Crisis Services of Saratoga County)',
         "lat": 42.9854,
         "long": -73.7868,
-        "description": 'Malta, NY.<br/> <a href="www.wellspringcares.org" target="_blank">Wellspring (incorporated as Domestic Violence and Rape Crisis Services of Saratoga County)</a>'
+        "description": 'Malta, NY.<br/> <a href="https://www.wellspringcares.org" target="_blank">Wellspring (incorporated as Domestic Violence and Rape Crisis Services of Saratoga County)</a>'
     },
     {
         "agencyname": 'Willow Domestic Violence Center',
         "lat": 43.1566,
         "long": -77.6088,
-        "description": 'Rochester, NY.<br/> <a href="www.willowcenterny.org" target="_blank">Willow Domestic Violence Center</a>'
+        "description": 'Rochester, NY.<br/> <a href="https://www.willowcenterny.org" target="_blank">Willow Domestic Violence Center</a>'
     },
     {
         "agencyname": 'Women In Distress',
         "lat": 26.2666,
         "long": -80.1449,
-        "description": 'Lighthouse Point, FL.<br/> <a href="www.womenindistress.org" target="_blank">Women In Distress</a>'
+        "description": 'Lighthouse Point, FL.<br/> <a href="https://www.womenindistress.org" target="_blank">Women In Distress</a>'
     },
     {
         "agencyname": 'YWCA of Genesee County',
         "lat": 42.9981,
         "long": -78.1875,
-        "description": 'Batavia, NY.<br/> <a href="www.ywcagenesee.org" target="_blank">YWCA of Genesee County</a>'
+        "description": 'Batavia, NY.<br/> <a href="https://www.ywcagenesee.org" target="_blank">YWCA of Genesee County</a>'
     },
     {
         "agencyname": 'YWCA of NorthEastern NY',
         "lat": 42.814243,
         "long": -73.939569,
-        "description": 'Schenectady, NY.<br/> <a href="www.ywca-neny.org" target="_blank">YWCA of NorthEastern NY</a>'
+        "description": 'Schenectady, NY.<br/> <a href="https://www.ywca-neny.org" target="_blank">YWCA of NorthEastern NY</a>'
     },
     {
         "agencyname": 'YWCA Silicon Valley',
         "lat": 37.331507,
         "long": -121.88442,
-        "description": 'San Jose, CA.<br/> <a href="www.ywca-sv.org/" target="_blank">YWCA Silicon Valley</a>'
+        "description": 'San Jose, CA.<br/> <a href="https://www.ywca-sv.org/" target="_blank">YWCA Silicon Valley</a>'
     },
 ]
